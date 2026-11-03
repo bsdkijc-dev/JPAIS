@@ -1,0 +1,31 @@
+services:
+  neo4j:
+    image: neo4j:5.26-community
+    container_name: jpais-neo4j
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:7474:7474"  # HTTP Browser
+      - "127.0.0.1:7687:7687"  # Bolt Protocol
+    environment:
+      - NEO4J_AUTH=neo4j/JpaisSovereign2026!
+      - NEO4J_server_memory_heap_initial__size=2G
+      - NEO4J_server_memory_heap_max__size=4G
+      - NEO4J_server_memory_pagecache_size=2G
+      - NEO4J_dbms_security_auth__minimum__password__length=8
+    volumes:
+      - ./infrastructure/docker/neo4j/data:/data
+      - ./infrastructure/docker/neo4j/logs:/logs
+      - ./infrastructure/docker/neo4j/import:/var/lib/neo4j/import
+
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: jpais-qdrant
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:6333:6333"  # REST API
+      - "127.0.0.1:6334:6334"  # gRPC Protocol
+    volumes:
+      - ./infrastructure/docker/qdrant/storage:/qdrant/storage
+      - ./infrastructure/docker/qdrant/snapshots:/qdrant/snapshots
+    environment:
+      - QDRANT__SERVICE__ENABLE_CORS=true
