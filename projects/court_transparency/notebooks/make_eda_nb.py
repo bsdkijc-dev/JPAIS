@@ -1,0 +1,162 @@
+import json
+
+notebook = {
+    'cells': [
+        {
+            'cell_type': 'markdown',
+            'metadata': {},
+            'source': [
+                '# Indonesian Court Transparency Scorecard - Exploratory Data Analysis (EDA)\n',
+                '\n',
+                'This notebook evaluates court-level transparency, case throughput, and publication timeliness across the four statutory branches of the Indonesian judicial system:\n',
+                '- **Peradilan Umum** (General Courts)\n',
+                '- **Peradilan Agama** (Religious Courts)\n',
+                '- **Peradilan Tata Usaha Negara / TUN** (State Administrative Courts)\n',
+                '- **Peradilan Militer** (Military Courts)\n',
+                '\n',
+                'Data is compiled from official institutional performance reports (*Laporan Kinerja Instansi Pemerintah / LKjIP*) and Supreme Court Annual Reports (*Laporan Tahunan MA RI*).'
+            ]
+        },
+        {
+            'cell_type': 'code',
+            'execution_count': None,
+            'metadata': {},
+            'outputs': [],
+            'source': [
+                'import os\n',
+                'import pandas as pd\n',
+                'import numpy as np\n',
+                'import matplotlib.pyplot as plt\n',
+                'import seaborn as sns\n',
+                '\n',
+                'sns.set_theme(style="whitegrid", palette="muted")\n',
+                'plt.rcParams["figure.figsize"] = (10, 5)\n',
+                'plt.rcParams["font.size"] = 11\n',
+                '\n',
+                '# Dual-path loader: supports both Kaggle cloud mount and local repository execution\n',
+                'kaggle_path = "/kaggle/input/indonesian-court-transparency-scorecard/scorecard.csv"\n',
+                'local_path = "../data/scorecard.csv"\n',
+                'fallback_path = "data/scorecard.csv"\n',
+                '\n',
+                'if os.path.exists(kaggle_path):\n',
+                '    data_file = kaggle_path\n',
+                'elif os.path.exists(local_path):\n',
+                '    data_file = local_path\n',
+                'else:\n',
+                '    data_file = fallback_path\n',
+                '\n',
+                'df = pd.read_csv(data_file)\n',
+                'print(f"Loaded {df.shape[0]} court records across {df.shape[1]} attributes from: {data_file}")\n',
+                'df.head()'
+            ]
+        },
+        {
+            'cell_type': 'markdown',
+            'metadata': {},
+            'source': [
+                '## 1. Data Integrity & Verification Audit\n',
+                'Inspecting data types, missingness, and provenance verification tags.'
+            ]
+        },
+        {
+            'cell_type': 'code',
+            'execution_count': None,
+            'metadata': {},
+            'outputs': [],
+            'source': [
+                'print("=== Summary Info ===")\n',
+                'df.info()\n',
+                'print("\n=== Verification Distribution ===")\n',
+                'print(df["verification_status"].value_counts())'
+            ]
+        },
+        {
+            'cell_type': 'markdown',
+            'metadata': {},
+            'source': [
+                '## 2. Case Resolution Capacity (Clearance & Publication Rates)\n',
+                '- $\\text{Clearance Rate (\\%)} = \\frac{\\text{Perkara Putus}}{\\text{Perkara Masuk}} \\times 100$\n',
+                '- $\\text{Publication Rate (\\%)} = \\frac{\\text{Putus Dipublikasi}}{\\text{Perkara Putus}} \\times 100$'
+            ]
+        },
+        {
+            'cell_type': 'code',
+            'execution_count': None,
+            'metadata': {},
+            'outputs': [],
+            'source': [
+                'fig, ax = plt.subplots(1, 2, figsize=(14, 5))\n',
+                '\n',
+                '# Clearance Rate by Jurisdiction\n',
+                'sns.barplot(data=df, x="jurisdiction", y="clearance_rate", ax=ax[0], edgecolor="black")\n',
+                'ax[0].set_title("Average Clearance Rate by Judicial Branch (%)")\n',
+                'ax[0].set_ylim(85, 102)\n',
+                'ax[0].axhline(100, color="red", linestyle="--", alpha=0.7, label="100% Target")\n',
+                'ax[0].legend()\n',
+                '\n',
+                '# Publication Rate by Jurisdiction\n',
+                'sns.barplot(data=df, x="jurisdiction", y="publication_rate", ax=ax[1], edgecolor="black")\n',
+                'ax[1].set_title("Decision Publication Rate (%)")\n',
+                'ax[1].set_ylim(90, 102)\n',
+                '\n',
+                'plt.tight_layout()\n',
+                'plt.show()'
+            ]
+        },
+        {
+            'cell_type': 'markdown',
+            'metadata': {},
+            'source': [
+                '## 3. Composite Openness Index\n',
+                'The composite index weights case resolution, public disclosure, and dispatch timeliness:\n',
+                '$$\\text{Openness Index} = (0.4 \\times \\text{Clearance}) + (0.4 \\times \\text{Publication}) + (0.2 \\times \\text{On-Time Delivery})$$'
+            ]
+        },
+        {
+            'cell_type': 'code',
+            'execution_count': None,
+            'metadata': {},
+            'outputs': [],
+            'source': [
+                'ranking = df[["court_id", "court_name", "jurisdiction", "province", "clearance_rate", "publication_rate", "openness_index"]].sort_values(by="openness_index", ascending=False)\n',
+                'print("=== Judicial Openness Rankings ===")\n',
+                'ranking.reset_index(drop=True)'
+            ]
+        },
+        {
+            'cell_type': 'code',
+            'execution_count': None,
+            'metadata': {},
+            'outputs': [],
+            'source': [
+                'plt.figure(figsize=(10, 5))\n',
+                'sns.barplot(data=ranking, y="court_name", x="openness_index", hue="jurisdiction", dodge=False)\n',
+                'plt.title("Indonesian Court Openness Index by Institution")\n',
+                'plt.xlim(90, 100)\n',
+                'plt.xlabel("Composite Openness Index (Score / 100)")\n',
+                'plt.ylabel("")\n',
+                'plt.legend(title="Judicial Branch", bbox_to_anchor=(1.05, 1), loc="upper left")\n',
+                'plt.tight_layout()\n',
+                'plt.show()'
+            ]
+        }
+    ],
+    'metadata': {
+        'kernelspec': {
+            'display_name': 'Python 3',
+            'language': 'python',
+            'name': 'python3'
+        },
+        'language_info': {
+            'name': 'python',
+            'version': '3.10.0'
+        }
+    },
+    'nbformat': 4,
+    'nbformat_minor': 5
+}
+
+with open('/home/ai/JPAIS/projects/court_transparency/notebooks/01_court_transparency_eda.ipynb', 'w') as f:
+    json.dump(notebook, f, indent=2)
+
+print('Compiled: 01_court_transparency_eda.ipynb')

@@ -86,3 +86,10 @@
 - Verified cloud execution on Kaggle runner (Version #9 `Successful`)
 - Rendered visual throughput analytics and institutional Openness Index rankings
 - Live Kernel URL: `https://www.kaggle.com/code/judicialcollege/indonesian-court-transparency-eda`
+
+## [Public Trust Expansion: National Judicial Dataset v2.0] - COMPLETED
+- Scaled dataset to 32 national courts (First-instance and Appellate across all 4 jurisdictions)
+- Implemented longitudinal 2023-2024 tracking (64 total records, 20 columns including e-Court utilization)
+- Published open governance framework: `METHODOLOGY.md` and `SOURCE_INVENTORY.csv`
+- Deployed Dataset Version 2 (16.06 kB) live to Kaggle (`judicialcollege/indonesian-court-transparency-scorecard`)
+- Indexed 64 national court vectors into local Qdrant collection `court_transparency`
