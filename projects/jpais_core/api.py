@@ -1,6 +1,7 @@
-import hashlib, os, subprocess
+import hashlib, os, subprocess, sys
 from typing import Optional, List, Dict, Any
-from fastapi import FastAPI, HTTPException, status
+from pathlib import Path
+from fastapi import FastAPI, HTTPException, status, File, UploadFile, Form
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 from neo4j import GraphDatabase
@@ -8,16 +9,20 @@ from qdrant_client import QdrantClient
 from qdrant_client.http import models
 import ollama
 
+# Add current package directory to sys.path
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+from document_loader import LegalDocumentIngestor
+
 app = FastAPI(
     title="JPAIS Sovereign Legal AI API",
-    description="Unified REST gateway exposing Indonesian statutory knowledge graphs, judicial precedent vector retrieval, and local GPU drafting assistance.",
-    version="1.0.0"
+    description="Unified REST gateway exposing Indonesian statutory knowledge graphs, judicial precedent vector retrieval, automated PDF ingestion, and local GPU drafting assistance.",
+    version="1.1.0"
 )
 
 # Enforce localhost CORS restrictions
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://127.0.0.1:8000", "http://localhost:8000", "http://127.0.0.1:8888"],
+    allow_origins=["http://127.0.0.1:8001", "http://localhost:8001", "http://127.0.0.1:8888"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -55,9 +60,9 @@ class DraftRequest(BaseModel):
 def root():
     return {
         "service": "JPAIS Sovereign Legal AI API",
+        "version": "1.1.0",
         "status": "operational",
-        "documentation": "/docs",
-        "openapi_schema": "/openapi.json"
+        "documentation": "/docs"
     }
 
 @app.get("/v1/health", tags=["Telemetry"])
@@ -86,15 +91,42 @@ def health_check():
         "services": health
     }
 
+@app.post("/v1/ingest/file", tags=["Document Ingestion"])
+async def ingest_document_file(
+    file: UploadFile = File(...),
+    verification_status: str = Form(default="verified", description="'verified' or 'synthetic'")
+):
+    """
+    Uploads and ingests a raw PDF or text legal document.
+    Automatically removes court watermarks, classifies the legal type, applies UU PDP PII pseudonymization,
+    and indexes into Neo4j and Qdrant with cryptographic provenance manifests.
+    """
+    if not file.filename.lower().endswith((".pdf", ".txt")):
+        raise HTTPException(status_code=400, detail="Hanya file berekstensi .pdf atau .txt yang didukung.")
+
+    target_folder = "/home/ai/JPAIS/datasets/verified" if verification_status == "verified" else "/home/ai/JPAIS/datasets/synthetic"
+    os.makedirs(target_folder, exist_ok=True)
+    target_path = os.path.join(target_folder, file.filename)
+
+    contents = await file.read()
+    with open(target_path, "wb") as f:
+        f.write(contents)
+
+    ingestor = LegalDocumentIngestor()
+    try:
+        manifest = ingestor.process_and_ingest(target_path, default_status=verification_status)
+    finally:
+        ingestor.close()
+
+    return {
+        "message": "Dokumen hukum berhasil diproses dan diindeks secara berdaulat.",
+        "manifest": manifest
+    }
+
 @app.post("/v1/search/statute", tags=["Statutory Intelligence"])
 def search_statute(req: SearchRequest):
-    """Searches statutory provisions in Qdrant and resolves cross-article dependencies in Neo4j."""
     query_vector = get_vector(req.query, dim=768)
-    hits = qdrant_client.query_points(
-        collection_name="regulations",
-        query=query_vector,
-        limit=req.limit
-    ).points
+    hits = qdrant_client.query_points(collection_name="regulations", query=query_vector, limit=req.limit).points
 
     results = []
     with neo4j_driver.session() as session:
@@ -102,7 +134,6 @@ def search_statute(req: SearchRequest):
             payload = hit.payload
             art_id = payload.get("document_id")
 
-            # Graph traversal for cross-references
             graph_refs = []
             cypher = """
                 MATCH (a:Article {id: $art_id})
@@ -127,13 +158,8 @@ def search_statute(req: SearchRequest):
 
 @app.post("/v1/search/precedent", tags=["Judicial Intelligence"])
 def search_precedent(req: SearchRequest):
-    """Searches Supreme Court jurisprudence in Qdrant and expands legal issues in Neo4j."""
     query_vector = get_vector(req.query, dim=768)
-    hits = qdrant_client.query_points(
-        collection_name="court_decisions",
-        query=query_vector,
-        limit=req.limit
-    ).points
+    hits = qdrant_client.query_points(collection_name="court_decisions", query=query_vector, limit=req.limit).points
 
     results = []
     with neo4j_driver.session() as session:
@@ -165,27 +191,16 @@ def search_precedent(req: SearchRequest):
 
 @app.post("/v1/draft", tags=["Grounded Legal Drafting"])
 def draft_legal_analysis(req: DraftRequest):
-    """Synthesizes grounded legal advis via local GPU inference with mandatory Data Governance headers."""
     context_chunks = []
 
-    # 1. Gather Statutory Context if requested
     if req.context_type in ["statute", "hybrid"]:
-        stat_hits = qdrant_client.query_points(
-            collection_name="regulations",
-            query=get_vector(req.query, dim=768),
-            limit=1
-        ).points
+        stat_hits = qdrant_client.query_points(collection_name="regulations", query=get_vector(req.query, dim=768), limit=1).points
         if stat_hits:
             p = stat_hits[0].payload
             context_chunks.append(f"Regulasi Terverifikasi: {p.get('article_number')} ({p.get('chapter')}):\n{p.get('content')}")
 
-    # 2. Gather Judicial Precedent Context if requested
     if req.context_type in ["precedent", "hybrid"]:
-        prec_hits = qdrant_client.query_points(
-            collection_name="court_decisions",
-            query=get_vector(req.query, dim=768),
-            limit=1
-        ).points
+        prec_hits = qdrant_client.query_points(collection_name="court_decisions", query=get_vector(req.query, dim=768), limit=1).points
         if prec_hits:
             p = prec_hits[0].payload
             context_chunks.append(f"Yurisprudensi Mahkamah Agung ({p.get('decision_number')}):\nKaidah: {p.get('judicial_principle')}\nPertimbangan: {p.get('pertimbangan_hukum')}")
