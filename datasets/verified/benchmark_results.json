@@ -1,0 +1,36 @@
+{
+  "benchmark_date": "2026-11-03T11:31:43.042544",
+  "metrics": [
+    {
+      "trial_id": "TC-01-CREDITOR-DEFICIT",
+      "statute_gate_accuracy": 1.0,
+      "precedent_retrieval_hit": 1.0,
+      "misgrounded_citation": 0.0,
+      "latency_ms": 9225.55,
+      "matched_cases": [
+        "12/Pdt.Sus-Pailit/2020/PN.Niaga.Jkt.Pst",
+        "28/Pdt.Sus-Pailit/2020/PN.Niaga.Jkt.Pst"
+      ]
+    },
+    {
+      "trial_id": "TC-02-NOVUM-NON-DECISIVE",
+      "statute_gate_accuracy": 1.0,
+      "precedent_retrieval_hit": 1.0,
+      "misgrounded_citation": 0.0,
+      "latency_ms": 7042.78,
+      "matched_cases": [
+        "17 PK/Pdt.Sus-Pailit/2020"
+      ]
+    },
+    {
+      "trial_id": "TC-03-DISPUTED-STANDING",
+      "statute_gate_accuracy": 1.0,
+      "precedent_retrieval_hit": 1.0,
+      "misgrounded_citation": 0.0,
+      "latency_ms": 6801.9,
+      "matched_cases": [
+        "18/Pdt.Sus-Pailit/2020/PN.Niaga.Jkt.Pst"
+      ]
+    }
+  ]
+}
