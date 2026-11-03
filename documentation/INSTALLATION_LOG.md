@@ -79,3 +79,10 @@
 - Verified `/v1/search/statute` (Qdrant semantic search + Neo4j cross-reference graph traversal)
 - Verified `/v1/search/precedent` (Supreme Court ratio decidendi retrieval + judicial principles)
 - Verified `/v1/draft` (Grounded local GPU legal synthesis with Data Governance framing)
+
+## [Kaggle Release: Court Transparency EDA Kernel] - COMPLETED
+- Deployed interactive Jupyter notebook kernel `01_court_transparency_eda.ipynb` to Kaggle
+- Successfully linked to live dataset `judicialcollege/indonesian-court-transparency-scorecard`
+- Verified cloud execution on Kaggle runner (Version #9 `Successful`)
+- Rendered visual throughput analytics and institutional Openness Index rankings
+- Live Kernel URL: `https://www.kaggle.com/code/judicialcollege/indonesian-court-transparency-eda`
