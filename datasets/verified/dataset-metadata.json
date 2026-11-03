@@ -1,0 +1,10 @@
+{
+  "title": "JPAIS Judicial Decisions & Legal Ontology",
+  "id": "judicialcollege/jpais-judicial-corpus",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0"
+    }
+  ],
+  "description": "Comprehensive empirical judicial dataset: Indonesian Commercial Court bankruptcy decisions, Supreme Court PK rulings, judicial deliberation ethics, electronic court rules, and PERMA harmonization ontologies."
+}

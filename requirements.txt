@@ -1,0 +1,11 @@
+jupyterlab
+pandas
+numpy
+scikit-learn
+pyarrow
+sentence-transformers
+neo4j
+qdrant-client
+pydantic
+fastapi
+uvicorn[standard]
