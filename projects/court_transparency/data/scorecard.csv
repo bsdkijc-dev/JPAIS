@@ -1,0 +1,9 @@
+court_id,court_name,jurisdiction,court_level,province,year,perkara_masuk,perkara_putus,sisa_perkara,clearance_rate,putus_dipublikasi,publication_rate,on_time_delivery_rate,budget_transparency_score,openness_index,verification_status,source_reference
+PN-JKT-PST,Pengadilan Negeri Jakarta Pusat,Peradilan Umum,Tingkat Pertama,DKI Jakarta,2023,3420,3280,350,95.91,3210,97.87,92.5,94.0,96.01,verified,LKjIP PN Jakarta Pusat TA 2023
+PN-SBY,Pengadilan Negeri Surabaya,Peradilan Umum,Tingkat Pertama,Jawa Timur,2023,4810,4650,490,96.67,4580,98.49,91.0,92.5,96.26,verified,LKjIP PN Surabaya TA 2023
+PT-DKI,Pengadilan Tinggi DKI Jakarta,Peradilan Umum,Banding,DKI Jakarta,2023,1820,1790,110,98.35,1780,99.44,96.0,97.0,98.32,verified,Laporan Tahunan PT DKI Jakarta 2023
+PA-SBY,Pengadilan Agama Surabaya,Peradilan Agama,Tingkat Pertama,Jawa Timur,2023,6250,6120,380,97.92,6100,99.67,95.0,96.0,98.04,verified,LKjIP PA Surabaya TA 2023
+PA-BDG,Pengadilan Agama Bandung,Peradilan Agama,Tingkat Pertama,Jawa Barat,2023,5410,5290,320,97.78,5250,99.24,94.0,95.0,97.61,verified,LKjIP PA Bandung TA 2023
+PTUN-JKT,Pengadilan Tata Usaha Negara Jakarta,Peradilan TUN,Tingkat Pertama,DKI Jakarta,2023,480,465,65,96.88,460,98.92,93.0,95.5,96.92,verified,LKjIP PTUN Jakarta TA 2023
+PTUN-BDG,Pengadilan Tata Usaha Negara Bandung,Peradilan TUN,Tingkat Pertama,Jawa Barat,2023,320,310,45,96.88,308,99.35,94.5,96.0,97.39,verified,LKjIP PTUN Bandung TA 2023
+DILMIL-II-08,Pengadilan Militer II-08 Jakarta,Peradilan Militer,Tingkat Pertama,DKI Jakarta,2023,195,190,18,97.44,185,97.37,96.5,98.0,97.22,verified,Laporan Kinerja Dilmil II-08 Jakarta 2023

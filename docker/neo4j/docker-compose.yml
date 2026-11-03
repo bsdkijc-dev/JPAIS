@@ -1,0 +1,21 @@
+services:
+  neo4j:
+    image: neo4j:5-community
+    container_name: jpais-neo4j
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      - NEO4J_AUTH=neo4j/${JPAIS_NEO4J_PASSWORD}
+      - NEO4J_server_memory_heap_initial__size=${JPAIS_HEAP_INITIAL}
+      - NEO4J_server_memory_heap_max__size=${JPAIS_HEAP_MAX}
+      - NEO4J_server_memory_pagecache_size=${JPAIS_PAGECACHE}
+      - NEO4J_server_default__listen__address=0.0.0.0
+    ports:
+      - "127.0.0.1:7474:7474"
+      - "127.0.0.1:7687:7687"
+    volumes:
+      - /home/ai/JPAIS/knowledge_graph/data:/data
+      - /home/ai/JPAIS/knowledge_graph/logs:/logs
+      - /home/ai/JPAIS/knowledge_graph/import:/var/lib/neo4j/import
+      - /home/ai/JPAIS/knowledge_graph/plugins:/plugins

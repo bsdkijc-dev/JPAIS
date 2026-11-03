@@ -1,8 +1,24 @@
+# Model weights (exceeds GitHub 100MB limit)
+models/
+*.gguf
+*.bin
+*.pt
+
+# Live database volumes and engine logs
+knowledge_graph/data/
+knowledge_graph/logs/
+vector_database/storage/
+vector_database/snapshots/
+
+# Local backup archives
+backups/
+
+# Environment secrets
+docker/*/.env
+.env
+
+# Virtual environment and bytecode
 .venv/
 __pycache__/
-*.py[cod]
-.env
-infrastructure/docker/neo4j/data/
-infrastructure/docker/neo4j/logs/
-infrastructure/docker/qdrant/storage/
-infrastructure/docker/qdrant/snapshots/
+*.pyc
+.ipynb_checkpoints/
