@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+infrastructure/docker/neo4j/data/
+infrastructure/docker/neo4j/logs/
+infrastructure/docker/qdrant/storage/
+infrastructure/docker/qdrant/snapshots/
