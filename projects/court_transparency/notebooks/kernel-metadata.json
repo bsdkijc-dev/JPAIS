@@ -1,0 +1,17 @@
+{
+  "id": "judicialcollege/indonesian-court-transparency-eda",
+  "title": "Indonesian Court Transparency EDA",
+  "code_file": "01_court_transparency_eda.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "false",
+  "enable_gpu": "false",
+  "enable_tpu": "false",
+  "enable_internet": "true",
+  "dataset_sources": [
+    "judicialcollege/indonesian-court-transparency-scorecard"
+  ],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}
