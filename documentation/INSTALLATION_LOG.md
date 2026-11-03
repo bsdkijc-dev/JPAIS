@@ -58,3 +58,24 @@
 - Parsed and ingested `UU-1-2024` (Perubahan Kedua UU ITE) into Neo4j and Qdrant
 - Mapped structural hierarchy (`Regulation -> Chapter -> Article`) and cross-article edges (`[:REFERENCES]`)
 - Verified hybrid graph-vector retrieval and local GPU drafting in `hybrid_test.py`
+
+## [Release: Court Transparency Scorecard & Multi-Platform Sync] - COMPLETED
+- Staged Indonesian Court Transparency Scorecard (`scorecard.csv`) in `projects/court_transparency/`
+- Ingested 8 court vectors into local Qdrant collection `court_transparency`
+- Pushed complete repository (33 files) to GitHub (`https://github.com/bsdkijc-dev/JPAIS`) on branch `main`
+- Deployed public dataset to Kaggle (`https://www.kaggle.com/datasets/judicialcollege/indonesian-court-transparency-scorecard`) with status `ready`
+
+## [Judicial Extraction: Supreme Court Precedent Pipeline] - COMPLETED
+- Implemented `IndonesianJudicialDecisionParser` in `~/JPAIS/projects/jpais_core/judicial_parser.py`
+- Enforced automated PII pseudonymization (NIK, physical addresses, litigant identities) complying with UU No. 27/2022 (UU PDP)
+- Structured court rulings into core segments: *Duduk Perkara*, *Pertimbangan Hukum*, and *Amar Putusan*
+- Mapped judicial ontology into Neo4j (`(:CourtDecision)-[:APPLIES]->(:JudicialPrinciple)` and `[:RESOLVES]->(:LegalIssue)`)
+- Realigned Qdrant `court_decisions` collection to standardized 768-dim vector schema
+- Verified grounded jurisprudential legal advis synthesis on local GPU via `qwen2.5:3b`
+
+## [REST Gateway: Unified FastAPI Sovereign Legal AI API] - COMPLETED
+- Deployed async FastAPI service in `~/JPAIS/projects/jpais_core/api.py` on dedicated loopback port `127.0.0.1:8001`
+- Served interactive OpenAPI/Swagger UI at `http://127.0.0.1:8001/docs`
+- Verified `/v1/search/statute` (Qdrant semantic search + Neo4j cross-reference graph traversal)
+- Verified `/v1/search/precedent` (Supreme Court ratio decidendi retrieval + judicial principles)
+- Verified `/v1/draft` (Grounded local GPU legal synthesis with Data Governance framing)
