@@ -1,0 +1,21 @@
+dataset_id,category,code,name_id,name_en,value,unit,page,reporting_year,institution,source_document
+DS01,Judicial Performance,CASE_DIST,Distribusi Perkara Masuk MA,Supreme Court Case Intake Distribution,37918.0,cases,51,2025,Mahkamah Agung Republik Indonesia,FA_LAPTAH_2025.pdf
+DS02,Judicial Performance,CASE_DISP,Penyelesaian Perkara MA,Supreme Court Case Disposition,37973.0,cases,51,2025,Mahkamah Agung Republik Indonesia,FA_LAPTAH_2025.pdf
+DS03,Judicial Performance,CASE_BACKLOG,Sisa Perkara Akhir Tahun MA,Year-End Supreme Court Backlog,175.0,cases,51,2025,Mahkamah Agung Republik Indonesia,FA_LAPTAH_2025.pdf
+DS04,Judicial Performance,CASE_TIME,Penyelesaian Tepat Waktu (<3 Bulan),Timely Case Resolution (<3 Months),98.0,percent,58,2025,Mahkamah Agung Republik Indonesia,FA_LAPTAH_2025.pdf
+DS05,Judicial Performance,CASE_APPEAL,Beban Perkara Kasasi & Peninjauan Kembali,Cassation & Judicial Review Caseload,38148.0,cases,61,2025,Mahkamah Agung Republik Indonesia,FA_LAPTAH_2025.pdf
+DS06,Judicial Performance,COURT_PERF,Penyelesaian Perkara Tingkat Pertama,First Instance Disposition Volume,2778855.0,cases,82,2025,Mahkamah Agung Republik Indonesia,FA_LAPTAH_2025.pdf
+DS07,Access to Justice,A2J_POSBAKUM,Penerima Layanan Posbakum,Legal Aid Post Beneficiaries,302660.0,individuals,145,2025,Mahkamah Agung Republik Indonesia,FA_LAPTAH_2025.pdf
+DS08,Access to Justice,A2J_PRODEO,Perkara Prodeo (Pembebasan Biaya),Prodeo Fee-Waived Cases Resolved,22706.0,cases,144,2025,Mahkamah Agung Republik Indonesia,FA_LAPTAH_2025.pdf
+DS09,Access to Justice,A2J_REMOTE,Perkara Sidang di Luar Gedung,Circuit Court Mobile Hearing Cases,38460.0,cases,145,2025,Mahkamah Agung Republik Indonesia,FA_LAPTAH_2025.pdf
+DS10,Access to Justice,A2J_COMPLAINT,Pengaduan Masyarakat via SIWAS,Public Whistleblowing Complaints (SIWAS),4125.0,complaints,246,2025,Mahkamah Agung Republik Indonesia,FA_LAPTAH_2025.pdf
+DS11,Institutional Governance,GOV_HR,Jumlah Hakim Seluruh Indonesia,Total Active Judges (All Jurisdictions),7892.0,judges,156,2025,Mahkamah Agung Republik Indonesia,FA_LAPTAH_2025.pdf
+DS12,Institutional Governance,GOV_TRAIN,Peserta Pelatihan Pusdiklat MA,Judicial Training Academy Participants,14320.0,participants,154,2025,Mahkamah Agung Republik Indonesia,FA_LAPTAH_2025.pdf
+DS13,Institutional Governance,GOV_DISCIPLINE,Penjatuhan Hukuman Disiplin,Disciplinary Sanctions Imposed,218.0,personnel,249,2025,Mahkamah Agung Republik Indonesia,FA_LAPTAH_2025.pdf
+DS14,Institutional Governance,GOV_ADMIN,Satuan Kerja Terakreditasi Penjaminan Mutu,Quality Assurance Accredited Court Units,912.0,court_units,141,2025,Mahkamah Agung Republik Indonesia,FA_LAPTAH_2025.pdf
+DS15,Digital Transformation,DIG_TRANS,Pelimpahan Berkas Pidana Terpadu (e-Berpadu),Integrated Criminal Case Files (e-Berpadu),284150.0,transmissions,121,2025,Mahkamah Agung Republik Indonesia,FA_LAPTAH_2025.pdf
+DS16,Digital Transformation,DIG_SYSTEMS,Distribusi Perkara Otomatis (Smart Majelis),Automated Bench Distribution (Smart Majelis),37918.0,cases,50,2025,Mahkamah Agung Republik Indonesia,FA_LAPTAH_2025.pdf
+DS17,Digital Transformation,DIG_ACCESS,Putusan Terunggah di Direktori Putusan,Court Decisions Published Online,8945210.0,decisions,49,2025,Mahkamah Agung Republik Indonesia,FA_LAPTAH_2025.pdf
+DS18,Financial & Strategic,FIN_BUDGET,Realisasi Anggaran Mahkamah Agung (DIPA),Budget Execution Absorption Rate,98.42,percent,174,2025,Mahkamah Agung Republik Indonesia,FA_LAPTAH_2025.pdf
+DS19,Financial & Strategic,FIN_KPI,Indikator Kinerja Pelaksanaan Anggaran (IKPA),Budget Execution Performance Index (IKPA),95.8,score,171,2025,Mahkamah Agung Republik Indonesia,FA_LAPTAH_2025.pdf
+DS20,Financial & Strategic,FIN_RECOVERY,Penerimaan Negara Bukan Pajak (PNBP),Non-Tax State Revenue Collected,112584000000.0,IDR,181,2025,Mahkamah Agung Republik Indonesia,FA_LAPTAH_2025.pdf
