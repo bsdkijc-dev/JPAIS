@@ -22,3 +22,18 @@ docker/*/.env
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+
+# Local server logs
+projects/*.log
+*.log
+
+# Runtime graph and scratch data directories
+knowledge_graph/
+datasets/verified/
+datasets/ingestion_manifest.jsonl
+
+# Ephemeral release scratchpacks
+projects/judicial_open_data/release_package/
+projects/judicial_open_data/kaggle_kernel/output_log/
+projects/judicial_open_data/kaggle_kernel/completed_output/
+projects/judicial_open_data/kaggle_kernel/logs/
