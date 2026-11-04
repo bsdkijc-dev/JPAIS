@@ -1,0 +1,25 @@
+register_id,reporting_year,category,metadata_property,value_or_reference,source_document,page_reference,verification_status
+REG-2023-01,2023,Document Identity,Official Document Title,Laporan Tahunan 2023 Mahkamah Agung Republik Indonesia,Laporan Tahunan MA 2023,Cover & Title Page (pp. 1-2),VERIFIED
+REG-2023-02,2023,Document Identity,Publishing Institution,Mahkamah Agung Republik Indonesia,Laporan Tahunan MA 2023,Title Page (p. 2),VERIFIED
+REG-2023-03,2023,Document Identity,Reporting Period,1 January 2023 – 31 December 2023 (FY 2023),Laporan Tahunan MA 2023,Executive Address (pp. 8-12),VERIFIED
+REG-2023-04,2023,Document Identity,Publication Date & Location,"February 2024 / Jakarta, Indonesia",Laporan Tahunan MA 2023,Sign-off Page (p. 12),VERIFIED
+REG-2023-05,2023,Document Identity,Total Verified Pages,316 Pages,Official PDF Document,Page Count 1-316,VERIFIED
+REG-2023-06,2023,Document Identity,Data Classification & Scope,PUBLIC / Supreme Court & Judicial Bodies,Laporan Tahunan MA 2023,Overview (pp. 14-16),VERIFIED
+REG-2023-07,2023,Institutional Scope,Jurisdictions Covered,"Supreme Court, General, Religious, Military, Administrative, Tax Court",Laporan Tahunan MA 2023,Table of Contents (pp. 45-51),VERIFIED
+REG-2023-08,2023,Reporting Structure,Bab 1: Case Management (Manajemen Perkara),"Caseload, Productivity, Speed, Minutasi, e-Court, Enforcement",Laporan Tahunan MA 2023,pp. 53-126,VERIFIED
+REG-2023-09,2023,Reporting Structure,Bab 2: Bureaucratic Reform & Access to Justice,"WBK/WBBM, Posbakum, Prodeo, Sidang Keliling, Disability Services",Laporan Tahunan MA 2023,pp. 127-152,VERIFIED
+REG-2023-10,2023,Reporting Structure,Bab 3: Judicial Human Resources Management,"Composition, Recruitment, Assessment, Diklat, Promotion/Mutation",Laporan Tahunan MA 2023,pp. 153-168,VERIFIED
+REG-2023-11,2023,Reporting Structure,"Bab 4: Financial, Asset, and IT Management","DIPA Budget, Realization, BMN Assets, IT Modernization",Laporan Tahunan MA 2023,pp. 169-198,VERIFIED
+REG-2023-12,2023,Reporting Structure,Bab 5: Legal R&D and Landmark Decisions,"Legal Research, Landmark Case Rulings across Chambers",Laporan Tahunan MA 2023,pp. 199-260,VERIFIED
+REG-2023-13,2023,Reporting Structure,Bab 6: Judicial Oversight (Pengawasan),"Public Complaints, SMAP, Disciplinary Sanctions, LHKPN",Laporan Tahunan MA 2023,pp. 261-280,VERIFIED
+REG-2023-14,2023,Reporting Structure,Bab 7: Institutional Cooperation,Domestic & International Judicial Collaboration,Laporan Tahunan MA 2023,pp. 281-308,VERIFIED
+REG-2023-15,2023,Pilot Priority Register,Dataset 1: Overall Caseload & Productivity,"DS01, DS02, DS03, DS06 (Supreme Court & Jurisdictions)",Laporan Tahunan MA 2023,"pp. 66-70, 90, 99",VERIFIED
+REG-2023-16,2023,Pilot Priority Register,Dataset 2: Processing Speed & Minutasi,"DS03, DS04 (90-Day Benchmark, Minutasi, Backlog)",Laporan Tahunan MA 2023,"pp. 70-74, 114-116",VERIFIED
+REG-2023-17,2023,Pilot Priority Register,Dataset 3: Access to Justice & Legal Aid,"DS07, DS08, DS09, DS10 (Posbakum, Prodeo, e-Court)",Laporan Tahunan MA 2023,"pp. 114-116, 146-149",VERIFIED
+REG-2023-18,2023,Pilot Priority Register,Dataset 4: Judicial Workforce & Governance,"DS11 (Judicial Personnel, Ranks, Positions)",Laporan Tahunan MA 2023,pp. 154-164,VERIFIED
+REG-2023-19,2023,Pilot Priority Register,Dataset 5: Financial Execution & State Recovery,"DS18, DS20 (Budget Realization, PNBP, Financial Recovery)",Laporan Tahunan MA 2023,"pp. 10, 123-124, 179-181",VERIFIED
+REG-2023-20,2023,Methodology & Schema,Standard Metadata Architecture,Multi-dimensional Open Data Schema (22 Standard Fields),Open Data Initiative Doc,Section 5,VERIFIED
+REG-2023-21,2023,Methodology & Schema,Quality Assurance Protocol,"4-Layer Validation: Source, Arithmetic, Cross-Ref, Flagging",Open Data Initiative Doc,Section 6,VERIFIED
+REG-2023-22,2023,Methodology & Schema,Temporal Rule,2023 Primary Observations with 2022 Comparative Baseline,Open Data Initiative Doc,Sections 1 & 5,VERIFIED
+REG-2023-23,2023,Verification Status,Audit Opinion & Integrity,Wajar Tanpa Pengecualian (WTP) 11th Consecutive Year (BPK),Laporan Tahunan MA 2023,"p. 10, 41, 132",VERIFIED
+REG-2023-24,2023,Verification Status,Data Extraction Engine,Fully Documented Open Data Architecture,Open Data Initiative Doc,Sections 8-10,VERIFIED
