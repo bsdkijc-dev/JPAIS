@@ -1,0 +1,17 @@
+record_id,reporting_year,category,field_name,value,citation,status
+MA-2020-META-01,2020,Document Identity,Document Title,Laporan Tahunan 2020 Mahkamah Agung Republik Indonesia,Cover & Title Page (hal. 1-3),VERIFIED
+MA-2020-META-02,2020,Document Identity,Publication Theme,"Optimalisasi Peradilan Modern Berkelanjutan, Merespons Pandemik Covid-19","Laptah 2020 hal. 1, 12",VERIFIED
+MA-2020-META-03,2020,Document Identity,Publisher / Institution,Mahkamah Agung Republik Indonesia,"Laptah 2020 hal. 1, 16",VERIFIED
+MA-2020-META-04,2020,Document Identity,Total Volume / Pages,362 Halaman,Laptah 2020 PDF Metadata (hal. 1-362),VERIFIED
+MA-2020-META-05,2020,Document Identity,Chief Justice (Ketua MA RI),"Dr. H. Muhammad Syarifuddin, S.H., M.H.","Laptah 2020 hal. 5, 21, 39",VERIFIED
+MA-2020-META-06,2020,Document Identity,Preceding Chief Justice,"Prof. Dr. M. Hatta Ali, S.H., M.H.","Laptah 2020 hal. 5, 23, 39",VERIFIED
+MA-2020-RECON-01,2020,Arithmetic Reconciliation,MA Workload Balance,20.761,Workload = Sisa 2019 + Masuk 2020 (hal. 91),PERFECT RECONCILIATION
+MA-2020-RECON-02,2020,Arithmetic Reconciliation,MA Ending Backlog Balance,199,Ending = Workload - Putus - Cabut (hal. 91),PERFECT RECONCILIATION
+MA-2020-RECON-03,2020,Arithmetic Reconciliation,National Workload Balance,3.955.963,National Workload = Sisa 2019 + Masuk (hal. 91),PERFECT RECONCILIATION
+MA-2020-RECON-04,2020,Arithmetic Reconciliation,National Ending Backlog,85.807,Ending = Workload - Putus - Cabut (hal. 91),PERFECT RECONCILIATION
+MA-2020-RECON-05,2020,Arithmetic Reconciliation,MA Deciding Productivity Rate,"99,04%","Productivity = Putus / Workload (hal. 91, 95)",PERFECT RECONCILIATION
+MA-2020-RECON-06,2020,Arithmetic Reconciliation,Budget Realization Rate,"95,28%","Realization = Realisasi / Pagu DIPA (hal. 14, 233)",PERFECT RECONCILIATION
+MA-2020-RECON-07,2020,Arithmetic Reconciliation,Total Potensi Keuangan Negara,Rp 58.507.022.411.536,"Total Denda + Uang Pengganti Pidana (hal. 124, 155)",PERFECT RECONCILIATION
+MA-2020-RECON-08,2020,Arithmetic Reconciliation,On-Time Case Processing Rate,"96,65%","On-Time = Putus < 3 Bulan / Total Putus (hal. 65, 96)",PERFECT RECONCILIATION
+MA-2020-RECON-09,2020,Arithmetic Reconciliation,e-Court YoY Growth Rate,"295,79%",Growth = (2020 - 2019) / 2019 (hal. 147),PERFECT RECONCILIATION
+MA-2020-RECON-10,2020,Arithmetic Reconciliation,Total Hakim Korps Nasional,8.439,"Total Hakim = MA + Banding + Pertama (hal. 154, 195)",PERFECT RECONCILIATION
