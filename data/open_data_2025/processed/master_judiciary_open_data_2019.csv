@@ -1,0 +1,21 @@
+dataset_id,reporting_year,category,master_dataset_name,scope,source_mapping
+DS01,2019,Judicial Performance,Case_Distribution,Perkara Masuk & Distribusi Perkara,"Bab I: p. 75-79, 101, 110, 117, 120, 122"
+DS02,2019,Judicial Performance,Case_Disposition,Perkara Diputus & Produktivitas Putus,"Bab I: p. 75-80, 84-98, 101-123"
+DS03,2019,Judicial Performance,Case_Backlog,Sisa Perkara & Tunggakan Akhir Tahun,"Bab I: p. 62, 75-79, 83, 101, 110"
+DS04,2019,Judicial Performance,Case_Processing_Time,Rerata Waktu Memutus & Waktu Minutasi,"Bab I: p. 80-83, 105, 110, 121, 125"
+DS05,2019,Judicial Performance,Case_Appeal_and_Review,"Upaya Hukum Banding, Kasasi, dan PK","Bab I: p. 81-83, 123-127"
+DS06,2019,Judicial Performance,Court_Performance,Clearance Rate & Rasio Kinerja Per Hakim,"Bab I: p. 80, 84, 128-129"
+DS07,2019,Access to Justice,Legal_Aid,Pos Bantuan Hukum (Posbakum) Pengadilan,"Bab II: p. 137, 149-151"
+DS08,2019,Access to Justice,Fee_Waiver_and_Prodeo,Layanan Pembebasan Biaya Perkara (Prodeo),"Bab II: p. 137, 149"
+DS09,2019,Access to Justice,Remote_and_Electronic_Court_Services,"Sidang Luar Gedung, Sidang Keliling, Isbat Luar Negeri","Bab II: p. 137, 149-153"
+DS10,2019,Access to Justice,Public_Service_and_Complaints,"PTSP, Meja Informasi, Siwas, dan Pengaduan","Bab II: p. 137, 151-154; Bab VI: p. 248-251"
+DS11,2019,Institutional Governance,Judicial_Human_Resources,"Komposisi Hakim, Panitera, Jurusita, & ASN","Bab III: p. 160, 164-166"
+DS12,2019,Institutional Governance,Judicial_Training_and_Development,"Pendidikan & Pelatihan Calon Hakim, Sertifikasi",Bab III: p. 167-175
+DS13,2019,Institutional Governance,Institutional_Integrity_and_Discipline,"Hukuman Disiplin, MKH, SMAP ISO 37001",Bab II: p. 136; Bab VI: p. 248-255
+DS14,2019,Institutional Governance,Court_Administration_and_Governance,Zona Integritas (WBK/WBBM) & Akreditasi APM,Bab II: p. 140-147
+DS15,2019,Digital Transformation,Judicial_Digital_Transformation,"e-Court, e-Litigation, Direktori Putusan","Bab I: p. 64-67, 73; Bab II: p. 142-146"
+DS16,2019,Digital Transformation,Judicial_Information_Systems,"SIPP, SIKEP, SIPERMARI, SPPT-TI, Command Center","Bab I: p. 74; Bab II: p. 137, 147; Bab III: p. 160"
+DS17,2019,Digital Transformation,Data_Transparency_and_Public_Access,"Publikasi Putusan, Majalah, Jurnal Hukum",Bab II: p. 151-156
+DS18,2019,Financial & Strategic,Budget_and_Financial_Performance,"Pagu Anggaran, Realisasi Belanja, Opini WTP","Bab IV: p. 16, 192-202"
+DS19,2019,Financial & Strategic,Strategic_Programs_and_KPIs,Indikator Kinerja Utama & Capaian PMPRB,Bab I: p. 77; Bab II: p. 139-140
+DS20,2019,Financial & Strategic,State_Revenue_and_Financial_Recovery,"PNBP Fungsional, Eksekusi Denda & Uang Pengganti",Bab I: p. 130-131; Bab IV: p. 202-204
