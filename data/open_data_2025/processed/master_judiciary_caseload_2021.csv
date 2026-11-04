@@ -1,0 +1,6 @@
+record_id,reporting_year,jurisdiction_level,court_type,previous_backlog_2020,incoming_filings_2021,total_workload,decisions_rendered,withdrawn_cases,ending_backlog_2021,clearance_productivity_ratio_pct,source_document,source_page,verification_status
+MA-2021-CASE-01,2021,Mahkamah Agung (Supreme Court),Apex Court,199,19209,19408,19233,0,175,99.1,Laporan Tahunan 2021 Mahkamah Agung RI,58,VERIFIED
+MA-2021-CASE-02,2021,Pengadilan Tingkat Banding (Appellate),High Courts (4 Jurisdictions),2580,23688,26268,23772,29,2467,90.5,Laporan Tahunan 2021 Mahkamah Agung RI,60,VERIFIED
+MA-2021-CASE-03,2021,Pengadilan Tingkat Pertama (First Instance),"General, Religious, Military, Administrative",75598,2691649,2767247,2652790,53147,61310,97.78,Laporan Tahunan 2021 Mahkamah Agung RI,62,VERIFIED
+MA-2021-CASE-04,2021,Pengadilan Pajak (Tax Court),Tax Court (Specialized),7430,17654,25084,12906,0,12178,51.45,Laporan Tahunan 2021 Mahkamah Agung RI,64,VERIFIED
+MA-2021-CASE-05,2021,Total Nasional (National Aggregate),All Jurisdictions Combined,85807,2752200,2838007,2708701,53176,76130,97.32,Laporan Tahunan 2021 Mahkamah Agung RI,54,VERIFIED ARITHMETICALLY

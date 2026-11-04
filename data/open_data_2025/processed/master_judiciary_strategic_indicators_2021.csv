@@ -1,0 +1,10 @@
+record_id,reporting_year,thematic_domain,indicator_name,value,unit,context
+MA-2021-STRAT-01,2021,Access to Justice,Pos Bantuan Hukum (Posbakum) Services,114311,Service Hours,"Free legal aid consultations across General, Religious, and TUN courts (p. 145)"
+MA-2021-STRAT-02,2021,Access to Justice,Fee-Exempt Litigation (Prodeo),3333,Cases,Full fee waivers for underprivileged litigants across 3 jurisdictions (p. 144)
+MA-2021-STRAT-03,2021,Access to Justice,Circuit Courts (Sidang di Luar Gedung),10461,Hearings,Remote hearings overcoming geographical barriers + 184 integrated services (p. 145)
+MA-2021-STRAT-04,2021,Digital Transformation,e-Court First-Instance Case Filings,225072,Cases,"20.37% YoY expansion (PN 90,041; PA 132,869; PTUN 2,162) (p. 115)"
+MA-2021-STRAT-05,2021,Digital Transformation,Criminal Teleconference Hearings,129575,Cases,Remote hearing safety protocol during COVID-19 pandemic (p. 116)
+MA-2021-STRAT-06,2021,Digital Transformation,Public Decisions Directory Uploads,980654,Decisions,Court decisions published online for public transparency (p. 148)
+MA-2021-STRAT-07,2021,Human Resources,Total Judicial Institutional Workforce,30551,Personnel,"Across 917 units: 8,323 judges, 11,734 registry staff, 9,342 admin (p. 154)"
+MA-2021-STRAT-08,2021,Fiscal Performance,Total Realized Budget Expenditure,10509269716263,IDR,97.96% realization of revised Pagu; 9th consecutive WTP audit opinion (p. 12)
+MA-2021-STRAT-09,2021,State Financial Recovery,Total Potential Financial Recovery,73900163398681,IDR,Aggregate potential revenue from criminal fines and restitution (p. 124)
