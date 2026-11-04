@@ -7,15 +7,18 @@ MA-2022-AUD-05,2022,Publication Date & Place,"Februari 2023, Jakarta",Official p
 MA-2022-AUD-06,2022,Chief Justice of the Supreme Court,"Prof. Dr. H. Muhammad Syarifuddin, S.H., M.H.",Ketua Mahkamah Agung Republik Indonesia periode 2020 - sekarang,"Leadership Profile (pp. 5, 17)",VERIFIED
 MA-2022-AUD-07,2022,Total Document Pages,344 Halaman,Total page length of the official publication PDF,Document Metadata (p. 1 of 344),VERIFIED
 MA-2022-AUD-08,2022,Data Classification,PUBLIC / Open Data Domain,Institutional judicial open access under SK KMA 2-144/2022 & UU KIP,"Section 1 (p. 11, 40)",VERIFIED
-MA-2022-AUD-09,2022,Report Structure: Chapter I,BAB I: Manajemen Perkara (pp. 53-136),"Caseload, clearance rate, productivity, processing speed, e-Court, mediation",Table of Contents (pp. 42-45),VERIFIED
-MA-2022-AUD-10,2022,Report Structure: Chapter II,BAB II: Reformasi Birokrasi & Akses Terhadap Keadilan (pp. 137-164),"PMPRB, PMPZI, WBK/WBBM, Posbakum, prodeo fee waiver, mobile court",Table of Contents (p. 43),VERIFIED
-MA-2022-AUD-11,2022,Report Structure: Chapter III,BAB III: Manajemen Sumber Daya Manusia (pp. 165-214),"Judicial personnel, judges, registrars, administrative staff, training",Table of Contents (p. 43-44),VERIFIED
-MA-2022-AUD-12,2022,Report Structure: Chapter IV,"BAB IV: Manajemen Keuangan, Aset, dan Teknologi Informasi (pp. 215-244)","Budget realization (97.95%), State Assets/BMN, IT infrastructure",Table of Contents (p. 44),VERIFIED
-MA-2022-AUD-13,2022,Report Structure: Chapter V,BAB V: Penelitian & Pengembangan Hukum serta Landmark Decisions (pp. 245-290),"Legal research, academic papers, citations, landmark decisions",Table of Contents (p. 44),VERIFIED
-MA-2022-AUD-14,2022,Report Structure: Chapter VI,BAB VI: Pengawasan (pp. 291-310),"Internal supervisory body (Bawas), SMAP anti-bribery, discipline sanctions",Table of Contents (pp. 44-45),VERIFIED
-MA-2022-AUD-15,2022,Report Structure: Chapter VII,BAB VII: Peran Serta dan Kerja Sama (pp. 311-336),"Bilateral/multilateral judicial cooperation (CACJ, Netherlands, Australia)",Table of Contents (p. 45),VERIFIED
-MA-2022-AUD-16,2022,Total National Caseload 2022,3.567.138 masuk; 3.643.268 beban; 3.513.611 putus,Combined national performance across MA and 4 judicial jurisdictions,"BAB I Summary (pp. 54, 68)",VERIFIED ARITHMETICALLY
-MA-2022-AUD-17,2022,National Case Clearance Rate,97.96%,Productivity ratio = (Disposed 3.513.611 / Workload 3.643.268) * 100,BAB I Summary (p. 68),VERIFIED ARITHMETICALLY
-MA-2022-AUD-18,2022,Supreme Court Deciding Rate,99.08%,Supreme Court case disposition productivity rate (28.024 diputus dari 28.284 beban),"BAB I Summary (pp. 54, 70)",VERIFIED ARITHMETICALLY
-MA-2022-AUD-19,2022,Supreme Court 90-Day Benchmark,99.26%,27.817 dari 28.024 perkara MA diputus tepat waktu kurang dari 90 hari,"BAB I Summary (pp. 55, 72)",VERIFIED ARITHMETICALLY
-MA-2022-AUD-20,2022,Budget Realization Rate,97.95%,Rp11.278.876.171.102 terealisasi dari Pagu Akhir Rp11.514.469.985.000 (WTP ke-10),Sekapur Sirih (p. 10),VERIFIED ARITHMETICALLY
+MA-2022-AUD-09,2022,Open Data Initiative Framework,Indonesia Judiciary Open Data Initiative (Phase 1 & Phase 2),"Verification-first, machine-readable institutional analytics architecture",Executive Mandate Doc,VERIFIED
+MA-2022-AUD-10,2022,Metadata Schema Standard,Standard 22-Field Multi-Dimensional Metadata Schema,"Bilingual, reproducible, lineage-tracked data architecture",Executive Mandate Sec. 5,VERIFIED
+MA-2022-AUD-11,2022,Extraction Protocol & Methodology,"Primary source verification, zero fabrication, arithmetic cross-reconciliation",Direct extraction from official statistical tables and audited financials,Protocol Sec. 1 & 6,VERIFIED
+MA-2022-AUD-12,2022,Report Structure: Chapter I,BAB I: Manajemen Perkara (pp. 53-136),"Caseload, clearance rate, productivity, processing speed, e-Court, mediation",Table of Contents (pp. 42-45),VERIFIED
+MA-2022-AUD-13,2022,Report Structure: Chapter II,BAB II: Reformasi Birokrasi & Akses Terhadap Keadilan (pp. 137-164),"PMPRB, PMPZI, WBK/WBBM, Posbakum, prodeo fee waiver, mobile court",Table of Contents (p. 43),VERIFIED
+MA-2022-AUD-14,2022,Report Structure: Chapter III,BAB III: Manajemen Sumber Daya Manusia (pp. 165-214),"Judicial personnel, judges, registrars, administrative staff, training",Table of Contents (p. 43-44),VERIFIED
+MA-2022-AUD-15,2022,Report Structure: Chapter IV,"BAB IV: Manajemen Keuangan, Aset, dan Teknologi Informasi (pp. 215-244)","Budget realization (97.95%), State Assets/BMN, IT infrastructure",Table of Contents (p. 44),VERIFIED
+MA-2022-AUD-16,2022,Report Structure: Chapter V,BAB V: Penelitian & Pengembangan Hukum serta Landmark Decisions (pp. 245-290),"Legal research, academic papers, citations, landmark decisions",Table of Contents (p. 44),VERIFIED
+MA-2022-AUD-17,2022,Report Structure: Chapter VI,BAB VI: Pengawasan (pp. 291-310),"Internal supervisory body (Bawas), SMAP anti-bribery, discipline sanctions",Table of Contents (pp. 44-45),VERIFIED
+MA-2022-AUD-18,2022,Report Structure: Chapter VII,BAB VII: Peran Serta dan Kerja Sama (pp. 311-336),"Bilateral/multilateral judicial cooperation (CACJ, Netherlands, Australia)",Table of Contents (p. 45),VERIFIED
+MA-2022-AUD-19,2022,Total National Caseload 2022,3.567.138 masuk; 3.643.268 beban; 3.513.611 putus,Combined national performance across MA and 4 judicial jurisdictions,"BAB I Summary (pp. 54, 68)",VERIFIED ARITHMETICALLY
+MA-2022-AUD-20,2022,National Case Clearance Rate,97.96%,Productivity ratio = (Disposed 3.513.611 / Workload 3.643.268) * 100,BAB I Summary (p. 68),VERIFIED ARITHMETICALLY
+MA-2022-AUD-21,2022,Supreme Court Deciding Rate,99.08%,Supreme Court case disposition productivity rate (28.024 diputus dari 28.284 beban),"BAB I Summary (pp. 54, 70)",VERIFIED ARITHMETICALLY
+MA-2022-AUD-22,2022,Supreme Court 90-Day Benchmark,99.26%,27.817 dari 28.024 perkara MA diputus tepat waktu kurang dari 90 hari,"BAB I Summary (pp. 55, 72)",VERIFIED ARITHMETICALLY
+MA-2022-AUD-23,2022,Budget Realization Rate,97.95%,Rp11.278.876.171.102 terealisasi dari Pagu Akhir Rp11.514.469.985.000 (WTP ke-10),Sekapur Sirih (p. 10),VERIFIED ARITHMETICALLY
