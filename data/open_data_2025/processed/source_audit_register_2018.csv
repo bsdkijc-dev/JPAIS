@@ -1,0 +1,22 @@
+record_id,reporting_year,section,attribute,parameter_value,source_specification,verification_status,notes
+MA-2018-DOC-01,2018,Document Identity,Document Title,Laporan Tahunan 2018 Mahkamah Agung Republik Indonesia,Official Printed / PDF Publication,VERIFIED,Published by Mahkamah Agung RI
+MA-2018-DOC-02,2018,Document Identity,Institutional Scope,Mahkamah Agung RI and Subordinate Courts,Apex Court + 4 Jurisdictions + Tax Court,VERIFIED,Covers all judicial branches across 34 provinces
+MA-2018-DOC-03,2018,Document Identity,Reporting Year,2018,"Calendar & Fiscal Year (Jan 1 - Dec 31, 2018)",VERIFIED,Temporal baseline: Pre-pandemic reporting year
+MA-2018-DOC-04,2018,Document Identity,Publication Date,Februari 2019,"Jakarta, Indonesia; ISBN: 978-979-8512-99-5",VERIFIED,Official editorial board release
+MA-2018-DOC-05,2018,Document Identity,Document Volume,316 Pages,Complete Digital Master Copy,VERIFIED,"Includes statistical tables, infographics, narrative"
+MA-2018-DOC-06,2018,Document Identity,Primary Theme,Era Baru Peradilan Modern Berbasis Teknologi Informasi,Official Cover Title & Focus,VERIFIED,Milestone launch of PERMA No. 3/2018 & e-Court
+MA-2018-DOC-07,2018,Document Identity,Data Classification,PUBLIC OPEN DATA,Official Unrestricted Release,VERIFIED,Open data ingestion for research and policy
+MA-2018-DOC-08,2018,Document Identity,Comparative Baseline,FY 2017,Only where officially reported in 2018 publication,VERIFIED,Preserves historical temporal integrity
+MA-2018-CHAP-01,2018,Chapter Inventory,Prelim: Foreword & Institutional Profile,Sekapur Sirih & Tentang Mahkamah Agung,pp. 14–56,VERIFIED,"Court leadership, mission, organizational structure, milestones"
+MA-2018-CHAP-02,2018,Chapter Inventory,Bab I: Judicial Case Management,Manajemen Perkara,pp. 57–128,VERIFIED,"Caseload, incoming, disposed, backlog, turnaround, minutasi, PNBP"
+MA-2018-CHAP-03,2018,Chapter Inventory,Bab II: Bureaucratic Reform & Access to Justice,Reformasi Birokrasi dan Akses Terhadap Keadilan,pp. 129–152,VERIFIED,"e-Court, Posbakum legal aid, prodeo fee waivers, circuit courts, APM"
+MA-2018-CHAP-04,2018,Chapter Inventory,Bab III: Judicial Human Resources,Manajemen Sumber Daya Manusia,pp. 153–174,VERIFIED,"Staffing bezetting, judges, clerks, open recruitment, training"
+MA-2018-CHAP-05,2018,Chapter Inventory,"Bab IV: Financial, Asset & IT Management","Manajemen Keuangan, Aset, dan TIK",pp. 175–206,VERIFIED,"Budget execution, PNBP revenues, state assets (BMN), IT governance"
+MA-2018-CHAP-06,2018,Chapter Inventory,Bab V: Judicial Research & Precedents,Litbang Kumdil dan Landmark Decisions,pp. 207–234,VERIFIED,"Legal research, downloads, milestone judicial precedents"
+MA-2018-CHAP-07,2018,Chapter Inventory,Bab VI: Judicial Oversight & Ethics,Pengawasan,pp. 235–254,VERIFIED,"Public complaints, SIWAS whistleblowing, MKH disciplinary actions"
+MA-2018-CHAP-08,2018,Chapter Inventory,Bab VII: National & International Relations,Peran Serta Mahkamah Agung,pp. 255–278,VERIFIED,"Bilateral judicial cooperation, donor programs, legal diplomacy"
+MA-2018-PILOT-01,2018,Priority Dataset,DS01: Overall Caseload & Productivity,DS01_Caseload_Productivity,"Tabel pp. 72–73, 80",VERIFIED ARITHMETICALLY,"Sisa 2017, Masuk 2018, Beban, Putus, Cabut, Sisa 2018, Rasio Putus"
+MA-2018-PILOT-02,2018,Priority Dataset,DS04: Case Processing Speed & Minutasi,DS04_Processing_Speed,"Tabel pp. 76–78, 83–84",VERIFIED ARITHMETICALLY,"Disposition <3 Mos, Minutasi Duration, Clearance Rate, Active Inventory"
+MA-2018-PILOT-03,2018,Priority Dataset,DS07: Access to Justice & Legal Aid,DS07_Access_to_Justice,"Tabel pp. 138–144, 183",VERIFIED,"Posbakum, Prodeo, Sidang Luar Gedung, e-Court Implementation"
+MA-2018-PILOT-04,2018,Priority Dataset,DS11: Judicial Workforce & Human Resources,DS11_Judicial_Workforce,"Tabel pp. 158–161, 123",VERIFIED,"Total Personnel, Judge/Clerk Bezetting, Judge-to-Case Workload Ratios"
+MA-2018-PILOT-05,2018,Priority Dataset,DS18: Budget Performance & Revenue Recovery,DS18_Financial_Execution,"Tabel pp. 188–190, 125",VERIFIED ARITHMETICALLY,"Budget Allocation, Realization %, PNBP Accounts, Fine/Restitution Recoveries"
