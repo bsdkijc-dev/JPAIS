@@ -1,0 +1,13 @@
+field_name,data_type,description
+record_id,string,Unique identifier for each data observation
+reporting_year,integer,Calendar fiscal reporting year (e.g. 2025)
+institution,string,Reporting judicial authority or jurisdiction
+category,string,Functional taxonomy pillar (A through E)
+indicator_code,string,Standardized machine-readable indicator token
+indicator_name_id,string,Official Indonesian title per Mahkamah Agung annual report
+indicator_name_en,string,Standardized English translation of the indicator
+value,float/integer,Reported quantitative metric value
+unit,string,"Measurement unit (cases, percent, individuals, IDR, etc.)"
+source_document,string,Official file name of the primary publication
+source_page,integer,Page number in official PDF source
+data_quality_flag,string,"Validation status (VALIDATED, FLAGGED_DISCREPANCY_NOTED)"
