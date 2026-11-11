@@ -1,0 +1,15 @@
+Year,Category,Jurisdiction_or_Indicator,Incoming_or_Target,Disposed_or_Actual,Clearance_%,Productivity_%,Source_Reference,Notes
+2008,Caseload,First Instance Courts (Tingkat Pertama),3530042,3512369,99.5,99.5,Executive Dashboard A11:H11,"Workload: 3530042, Ending Backlog: 17673"
+2008,Caseload,Appellate Courts (Tingkat Banding),13977,13453,96.25,96.25,Executive Dashboard A12:H12,"Workload: 13977, Ending Backlog: 524"
+2008,Caseload,Supreme Court (Mahkamah Agung RI),11338,13885,122.46,62.64,Executive Dashboard A13:H13,"Workload: 22165, Ending Backlog: 8280"
+2008,Caseload,NATIONAL JUDICIAL TOTAL,3555357,3539707,99.56,99.26,Executive Dashboard A6:H6 Consolidated,"Workload: 3566184, Ending Backlog: 26477"
+2008,Strategic_Indicator,Active Backlog (>24 Months),,5657,,,"Hal. 18-20, Executive Dashboard A21","Mahkamah Agung RI - Cut by -46% from 10,423 in Dec 2007 to 5,657 in Dec 2008"
+2008,Strategic_Indicator,Online Decisions Directory (putusan.net),,10610,,,"Hal. 107-130, Executive Dashboard A36","Nasional - Exceeded 10,000 target; first nationwide judgment directory"
+2008,Strategic_Indicator,AsianLII Jurisprudence Syndication,,2000,,,Executive Dashboard A37,Mahkamah Agung RI - MoU July 2008 syndicating Indonesian decisions to Asian legal portal
+2008,Strategic_Indicator,Active Court Websites Under SK KMA 144/2007,,250,,,Executive Dashboard A38,Pengadilan Daerah - 31 High Courts and 219 First Instance Courts launched public websites
+2008,Strategic_Indicator,SMS Case Finance Compliance (SEMA 09/2008),,85.94,,,Executive Dashboard A39,768 Satker Peradilan - Nationwide cellular SMS reporting of judicial fee balances
+2008,Strategic_Indicator,LHKPN Wealth Declaration Compliance,,98.26,,,Executive Dashboard A40,"Hakim & Pejabat Peradilan - 3,897 of 3,966 officials reported; mandatory for promotion/mutation"
+2008,Strategic_Indicator,DIPA APBN Total Realization,,4001328293304,,,"Hal. 131-154, Executive Dashboard A32",Konsolidasi MA RI - 68.89% absorption from Pagu Rp5.81T; Badilag absorbed 95.71%
+2008,Strategic_Indicator,Megamendung Judicial Training Campus,,54588224155,,,Executive Dashboard A30,Balitbang Diklat Kumdil - Pusdiklat Megamendung inaugurated on 13 October 2008
+2008,Strategic_Indicator,Judicial Disciplinary Sanctions,,90,,,"Hal. 45-74, Executive Dashboard A41",Bawas MA RI - 38 judges (42.2%) and 52 non-judge officers (57.8%) penalized
+2008,Strategic_Indicator,PILKADA Dispute Jurisdiction Transfer,,97,,,Source_Audit Row 34,Mahkamah Konstitusi - Jurisdiction formally transferred to MK on 1 Nov 2008 (UU 12/2008)
