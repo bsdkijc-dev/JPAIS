@@ -1,0 +1,16 @@
+Year,Category,Jurisdiction_or_Indicator,Incoming_or_Target,Disposed_or_Actual,Clearance_%,Productivity_%,Source_Reference,Notes
+2006,Caseload,First Instance Courts (Tingkat Pertama),2806000,2770000,98.72,98.72,"PDF pp. 14, 16, 17, 104 (DS01 & DS02)","Workload: 2806000, Ending Backlog: 36000"
+2006,Caseload,Appellate Courts (Tingkat Banding),11200,10500,93.75,93.75,"PDF pp. 15, 16, 105 (Umum 8,202, Agama 1,952, TUN 621, Militer 425)","Workload: 11200, Ending Backlog: 700"
+2006,Caseload,Supreme Court (Mahkamah Agung RI),10460,15245,145.75,61.41,"PDF pp. 14, 18, 104 (Record Disposition Surge; Sisa 9,681 per Maret 2007)","Workload: 24826, Ending Backlog: 10110"
+2006,Strategic_Indicator,Supreme Court Historic Clearance Rate,,145.75,,,"PDF pp. 14, 16","Mahkamah Agung RI - Disposed 15,245 cases vs 10,460 incoming (record clearance surge)"
+2006,Strategic_Indicator,Backlog Reduction from 2004 Peak,,10110,,,"PDF pp. 14, 16","Mahkamah Agung RI - Reduced from 20,314 peak backlog in 2004 down to 10,110 (and 9,681 per Mar 2007)"
+2006,Strategic_Indicator,Average Monthly Decision Speed,,2069,,,"PDF pp. 18, 19, 55","46 Hakim Agung - 46 Justices decided 2,069 cases per month (540 cases per Justice per year)"
+2006,Strategic_Indicator,DIPA APBN Consolidated Budget,,2202000000000,,,"PDF pp. 49-52, 110-115","Mahkamah Agung RI - Pagu Rp 2,182 T + ABT Rp 20 M; Realized Rp 1,670 T (83.36% absorption)"
+2006,Strategic_Indicator,Regional Court Budget Decentralization,,80.0,,,PDF pp. 49-52,724 Satker Daerah - 80% of budget (Rp 1.757 T) allocated to regional trial courts via UAPPA-W
+2006,Strategic_Indicator,Legal Aid Allocation (Pos Bantuan Hukum),,4940000000,,,"PDF pp. 51, 114","Masyarakat Kurang Mampu - Rp 4.94B legal aid allocation (Trial courts: 150 cases, Appeals: 50 cases)"
+2006,Strategic_Indicator,State Revenue (PNBP & Grants),,5935921593,,,PDF pp. 51-52,"Kas Negara - PNBP realization reached 7,650.70% of target pagu"
+2006,Strategic_Indicator,Consolidated Judicial Personnel,,11025,,,PDF pp. 38-43,"4 Lingkungan Peradilan - 11,025 PNS personnel (6,747 judges across 4 branches: Umum 3,487, Agama 2,941)"
+2006,Strategic_Indicator,Judicial Training Realization,,1084,,,"PDF pp. 30-33, 72-78","Balitbang Diklat Kumdil - 1,084 personnel trained (867 judges, 245 candidate judges, 33 clerks)"
+2006,Strategic_Indicator,Judicial Supervision Inspections,,113,,,"PDF pp. 22-25, 108",Badan Pengawasan MA - Inspections surged by +269% YoY; 53 personnel penalized (17 judges)
+2006,Strategic_Indicator,Pre-putusan.net Decision Digitization,,5000,,,"PDF pp. 5, 10, 45, 64","Portal Resmi MA - Over 5,000 Supreme Court rulings digitized prior to SK KMA 144/2007"
+2006,Strategic_Indicator,SIMARI Early Computerization Pilot,,25,,,PDF pp. 45-47,Sistem Informasi MA RI - Central SIMARI (8 modules) expanded to 25 courts across 5 cities (~5% coverage)
