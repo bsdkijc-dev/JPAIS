@@ -1,0 +1,10 @@
+record_id,reporting_year,pillar,metric_value,baseline_2015,yoy_change,policy_context
+MA-2016-POL-01,2016,Access to Justice: Posbakum Legal Aid,"204,933 Persons Served","88,904 Persons Served",+130.51% YoY Surge,Massive expansion of legal aid posts across Religious and General court jurisdictions
+MA-2016-POL-02,2016,Access to Justice: Fee Waivers (Prodeo),"26,779 Cases Waived","11,669 Cases Waived",+129.49% YoY Surge,Significant increase in state-funded fee exemptions for marginalized litigants
+MA-2016-POL-03,2016,Access to Justice: Circuit Courts (Sidang Keliling),"69,389 Cases Resolved","28,835 Cases Resolved",+140.64% YoY Surge,Active deployment of remote and mobile court sessions to reach underserved remote islands
+MA-2016-POL-04,2016,Judicial Human Resources: Judge Shortage,"7,989 Active Judges (37.8% Deficit)",5-Year Recruitment Freeze,"4,858 Judge Deficit",Severe staffing strain caused by 2011-2016 moratorium; required to staff 86 newly established courts
+MA-2016-POL-05,2016,Judicial Human Resources: Gender Equity,"34.51% Female (10,837 of 31,406)",Pre-pandemic baseline,Balanced Baseline,Strong female representation across court administration and judicial ranks
+MA-2016-POL-06,2016,State Financial Recovery: Total Fines & Restitution,Rp 4.48 Trillion Imposed,Rp 1.60T MA + Rp 2.66T Lower,Fiscal Contribution,Direct financial sanctions returned to state treasury from criminal and corruption convictions
+MA-2016-POL-07,2016,Financial Management: BPK Audit Opinion,Wajar Tanpa Pengecualian (WTP),"WTP (2012, 2013, 2014, 2015)",4th Consecutive WTP,Highest audit rating from BPK RI for transparency and accrual-based accounting
+MA-2016-POL-08,2016,Digital Modernization: Court IT Platforms,"SIPP v3.1.5, SIAPv3, Siwas, e-SKUM, ATR",Initial pilot prototypes,Full Standardization,"Nationwide rollout of case tracking, whistleblowing system, and speech-to-text recording"
+MA-2016-POL-09,2016,Judicial Caseload Efficiency: Backlog Reduction,"2,357 Pending Cases","3,950 Pending Cases",-40.33% Backlog Cut,All-time historical lowest case backlog achieved in Supreme Court history up to that point
