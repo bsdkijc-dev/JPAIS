@@ -1,0 +1,22 @@
+record_id,reporting_year,domain,indicator_name,value,baseline_2012,yoy_change,source_reference
+MA-2013-META-01,2013,Governance & Lineage,Institution,Mahkamah Agung Republik Indonesia,Mahkamah Agung RI,Apex Court,Official 2013 Annual Report
+MA-2013-META-02,2013,Governance & Lineage,Reporting Period,1 January 2013 – 31 December 2013,FY 2012,Pre-pandemic,Annual Reporting Cycle
+MA-2013-META-03,2013,Governance & Lineage,Primary Source Document,Laporan Tahunan 2013 Mahkamah Agung RI,Laptah 2012,Official Release Feb 2014,PDF Verified
+MA-2013-CASE-01,2013,Caseload Productivity,Total MA Caseload (Beban Perkara MA),22449,21107,+6.36%,"Part 1, p. 17, Tabel 1"
+MA-2013-CASE-02,2013,Caseload Productivity,MA Incoming Cases (Perkara Masuk MA),12337,13412,-8.02%,"Part 1, p. 17, Tabel 1"
+MA-2013-CASE-03,2013,Caseload Productivity,MA Disposed Cases (Perkara Putus MA),16034,10995,+45.83%,"Part 1, p. 19, Tabel 3"
+MA-2013-CASE-04,2013,Caseload Productivity,MA Ending Backlog (Sisa Perkara MA),6415,10112,-36.56%,"Part 1, p. 19, Tabel 3"
+MA-2013-CASE-05,2013,Caseload Productivity,MA Productivity Ratio (Rasio Putus),71.42%,52.09%,+19.33%,"Part 1, p. 19, Tabel 3"
+MA-2013-CASE-06,2013,Caseload Productivity,MA Clearance Rate (Minutasi / Masuk),100.19%,93.42%,+6.77%,"Part 1, p. 44, Section C.b"
+MA-2013-CASE-07,2013,Judicial Speed,Cases Decided < 1 Year (MA),6541,Not Reported,40.79% of Decisions,"Part 1, p. 46, Tabel 30"
+MA-2013-A2J-01,2013,Access to Justice,Religious Court Circuit Hearings (Sidang Keliling PA),19383,23675,433 Locations (Target: 285),"Part 2, p. 87, Tabel 2-2"
+MA-2013-A2J-02,2013,Access to Justice,Religious Court Fee Waivers (Prodeo PA),10252,12243,"112.02% vs Target (9,152)","Part 2, p. 89, Tabel 2-4"
+MA-2013-A2J-03,2013,Access to Justice,General Court Remote Sessions (Zittingplaats PN),3164,Not Reported,23 Locations Achieved,"Part 2, p. 86, Tabel 2-1"
+MA-2013-HR-01,2013,Human Resources,Total Judicial Personnel (MA & 4 Jurisdictions),33794,34652,-2.48%,"Part 4, p. 143, Tabel 4-5"
+MA-2013-HR-02,2013,Human Resources,Total Certified Judges (Hakim),7708,7867,-2.02%,"Part 4, p. 146, Tabel 4-9"
+MA-2013-HR-03,2013,Human Resources,Female Workforce Representation (%),23.92%,Not Reported,"8,085 female personnel","Part 4, p. 145, Tabel 4-7"
+MA-2013-FIN-01,2013,Financial Execution,Final Budget Allocation (Pagu Akhir 2013),7254931337000,5057632608000,+43.44%,"Part 4, p. 159, Tabel 4-21"
+MA-2013-FIN-02,2013,Financial Execution,Budget Realization Rate (%),91.60%,95.07%,Rp 6.645T Realized,"Part 4, p. 177, Tabel 4-24"
+MA-2013-REC-01,2013,State Revenue Recovery,Criminal Fines Imposed (Denda Perkara MA),847929700000,Not Reported,Asset Recovery,"Part 1, p. 56, Tabel 44"
+MA-2013-REC-02,2013,State Revenue Recovery,Restitution / Compensation (Uang Pengganti MA),712286515400,Not Reported,Asset Recovery,"Part 1, p. 56, Tabel 44"
+MA-2013-REC-03,2013,State Revenue Recovery,Non-Tax State Revenue (PNBP Disetor),48619148781,Not Reported,Treasury Remittance,"Part 4, p. 171, Rekapitulasi"
