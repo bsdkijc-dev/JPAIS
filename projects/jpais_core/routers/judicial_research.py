@@ -52,10 +52,6 @@ class ResearchQueryResponse(BaseModel):
 # --- Endpoints ---
 @router.post("/research-query", response_model=ResearchQueryResponse)
 def judicial_research_query(req: ResearchQueryRequest):
-    """
-    Hybrid search combining exact Cypher graph traversals and Qdrant semantic vector similarity
-    tailored for Supreme Court legal analysts and judicial researchers.
-    """
     graph_results = []
     semantic_results = []
     
@@ -69,7 +65,6 @@ def judicial_research_query(req: ResearchQueryRequest):
         )
         for pt in res.points:
             p = pt.payload or {}
-            # Apply optional year filter if specified
             if req.target_year and p.get("year") != req.target_year:
                 continue
             semantic_results.append({
@@ -121,7 +116,6 @@ def judicial_research_query(req: ResearchQueryRequest):
 
 @router.get("/stats/summary")
 def get_macro_summary():
-    """Returns 9-year macro performance metrics (2017–2025) and econometric forecast (2026–2028)."""
     return {
         "institution": "Mahkamah Agung Republik Indonesia",
         "archive_span": "2017–2025 (9 Fiscal Years)",
@@ -145,18 +139,23 @@ def get_macro_summary():
         "status": "OPERATIONAL"
     }
 
-@router.get("/indicator/{code}")
-def get_indicator_history(code: str):
-    """Retrieve full historical observations for a specific indicator code across all years."""
+@router.get("/indicator/{query}")
+def get_indicator_history(query: str):
+    """
+    Flexible indicator lookup matching either indicator_code or indicator_name
+    (case-insensitive, substring compatible).
+    """
     results = []
     with neo4j_driver.session() as s:
         cypher = """
             MATCH (y:ReportingYear)<-[:IN_YEAR]-(obs:DataPoint)<-[:RECORDED_IN]-(ind:Indicator)
-            WHERE toUpper(ind.code) = toUpper($code)
+            WHERE toUpper(ind.code) CONTAINS toUpper($q) 
+               OR toUpper(ind.name) CONTAINS toUpper($q)
             RETURN y.year AS year, ind.code AS code, ind.name AS name, obs.value AS value, obs.source_file AS source
-            ORDER BY year DESC
+            ORDER BY year DESC, ind.name
+            LIMIT 25
         """
-        for r in s.run(cypher, {"code": code}):
+        for r in s.run(cypher, {"q": query}):
             results.append({
                 "year": r["year"],
                 "code": r["code"],
@@ -164,6 +163,28 @@ def get_indicator_history(code: str):
                 "value": r["value"],
                 "source": r["source"]
             })
+            
+    # If graph returns empty, fallback to searching Qdrant vector payload
     if not results:
-        raise HTTPException(status_code=404, detail=f"Indicator code '{code}' not found in knowledge graph.")
-    return {"indicator_code": code, "observations_count": len(results), "history": results}
+        try:
+            q_vec = generate_vector(query)
+            q_res = qdrant_client.query_points(
+                collection_name="court_transparency",
+                query=q_vec,
+                limit=5
+            )
+            for pt in q_res.points:
+                p = pt.payload or {}
+                results.append({
+                    "year": p.get("year"),
+                    "code": "VECTOR_MATCH",
+                    "name": p.get("name"),
+                    "value": str(p.get("value")),
+                    "source": p.get("file")
+                })
+        except Exception:
+            pass
+
+    if not results:
+        raise HTTPException(status_code=404, detail=f"Indicator '{query}' not found in knowledge graph or vector collections.")
+    return {"query": query, "observations_count": len(results), "history": results}
