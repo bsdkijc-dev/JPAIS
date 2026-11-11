@@ -1,0 +1,6 @@
+record_id,reporting_year,jurisdiction,carryover_2015,incoming_cases,total_caseload,disposed_cases,withdrawn_cases,ending_backlog,disposal_rate_pct,backlog_ratio_pct
+MA-2016-JUR-01,2016,Peradilan Umum (General Courts),37231,3344569,3381800,3323333,7168,51299,98.27,1.52
+MA-2016-JUR-02,2016,Peradilan Agama (Religious Courts),88824,503794,592618,449988,9378,133252,75.93,22.49
+MA-2016-JUR-03,2016,Peradilan Militer (Military Courts),391,3672,4063,3469,44,550,85.38,13.54
+MA-2016-JUR-04,2016,Peradilan TUN (Administrative Courts),750,3117,3867,3078,0,789,79.6,20.4
+MA-2016-JUR-05,2016,Pengadilan Pajak (Tax Court),170,10158,10328,1110,0,9218,10.75,89.25

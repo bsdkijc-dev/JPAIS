@@ -1,0 +1,8 @@
+record_id,reporting_year,chamber_name,carryover_2015,incoming_cases,total_caseload,disposed_cases,ending_backlog,disposal_rate_pct,clearance_rate_pct,decided_under_3m_pct
+MA-2016-CHAMBER-01,2016,Perdata (General Civil),1680,4605,6285,5279,1006,83.99,135.87,72.55
+MA-2016-CHAMBER-02,2016,Perdata Khusus (Special Civil),241,1271,1512,1388,124,91.8,98.82,90.99
+MA-2016-CHAMBER-03,2016,Pidana (General Criminal),494,1629,2123,1812,311,85.35,104.42,95.75
+MA-2016-CHAMBER-04,2016,Pidana Khusus (Special Criminal / Tipikor),1033,3106,4139,3422,717,82.68,137.15,64.06
+MA-2016-CHAMBER-05,2016,Perdata Agama (Religious Civil),1,945,946,946,0,100.0,93.02,99.58
+MA-2016-CHAMBER-06,2016,Pidana Militer (Military Criminal),88,393,481,350,131,72.77,84.73,83.43
+MA-2016-CHAMBER-07,2016,Tata Usaha Negara (Administrative),413,2681,3094,3026,68,97.8,138.68,94.05
