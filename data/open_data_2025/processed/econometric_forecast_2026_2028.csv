@@ -1,0 +1,4 @@
+forecast_year,predicted_ma_inflow,inflow_lower_95ci,inflow_upper_95ci,projected_ma_disposal,projected_ending_backlog,projected_ecourt_filings,model_specification,assumptions
+2026,42105,39579,44632,41726,554,453198,Second-order Polynomial Drift + Logistic Adoption Curve,"Assumes judicial workforce stability, continuing e-Berpadu integration, and statutory 90-day turnaround standards."
+2027,47862,44990,50734,47431,606,457888,Second-order Polynomial Drift + Logistic Adoption Curve,"Assumes judicial workforce stability, continuing e-Berpadu integration, and statutory 90-day turnaround standards."
+2028,54208,50956,57461,53720,663,459901,Second-order Polynomial Drift + Logistic Adoption Curve,"Assumes judicial workforce stability, continuing e-Berpadu integration, and statutory 90-day turnaround standards."
