@@ -1,0 +1,21 @@
+Year,Category,Subcategory,Code,Name,Target,Actual,Unit,Status,Notes
+2011,KPI,Productivity,KPI-01,Supreme Court Clearance Rate,100.0,117.19,%,Exceeded,"15,223 disposed vs 12,990 incoming cases"
+2011,KPI,Productivity,KPI-02,Supreme Court Workload Resolved,70.0,64.07,%,Met,"13,719 decided out of 21,414 workload (sisa 7,695)"
+2011,KPI,Productivity,KPI-03,Nationwide Case Resolution,90.0,97.55,%,Exceeded,"5,189,266 decided out of 5,319,522 national workload"
+2011,KPI,Access to Justice,KPI-04,Posbakum Beneficiaries Badilag,11553,34647,beneficiaries,Exceeded,"299.90% achievement, budget IDR 4.05B realized"
+2011,KPI,Human Resources,KPI-05,Total Judicial Workforce,35673,35673,personnel,Met,"8,575 judges (54 Hakim Agung), 10,058 clerks/bailiffs"
+2011,KPI,Diversity,KPI-06,Female Personnel Ratio,30.0,32.54,%,Exceeded,"11,608 female personnel nationwide"
+2011,KPI,Fiscal Recovery,KPI-07,State Revenue & Asset Recovery,4000000000000,5772002049654,IDR,Exceeded,Denda/UP IDR 5.75T + PNBP IDR 18.11B
+2011,KPI,Financial,KPI-08,Budget Realization,85.0,54.5,%,Below Target,IDR 3.24T realized from Pagu IDR 5.94T DIPA MA
+2011,KPI,Transparency,KPI-09,Direktori Putusan Online Repository,150000,145309,decisions,Met,96.87% of 150k target decisions published online
+2011,Caseload,Workload,Mahkamah Agung (Kasasi),Cases Decided,16815,10968,cases,Clearance: 106.11%,Backlog: 5847
+2011,Caseload,Workload,Mahkamah Agung (PK),Cases Decided,4475,2648,cases,Clearance: 104.25%,Backlog: 1827
+2011,Caseload,Workload,Mahkamah Agung (Grasi),Cases Decided,74,57,cases,Clearance: 77.03%,Backlog: 17
+2011,Caseload,Workload,Mahkamah Agung (HUM),Cases Decided,50,46,cases,Clearance: 115.0%,Backlog: 4
+2011,Caseload,Workload,Mahkamah Agung (Fatwa),Cases Decided,221,221,cases,Clearance: 100.0%,Backlog: 0
+2011,Caseload,Workload,Peradilan Umum (PN),Cases Decided,4854111,4808881,cases,Clearance: 100.0%,Backlog: 45230
+2011,Caseload,Workload,Peradilan Agama (PA),Cases Decided,426208,353933,cases,Clearance: 100.0%,Backlog: 72275
+2011,Caseload,Workload,Peradilan Militer (Dilmil),Cases Decided,3429,3000,cases,Clearance: 100.0%,Backlog: 429
+2011,Caseload,Workload,Peradilan TUN (PTUN),Cases Decided,1870,1428,cases,Clearance: 100.0%,Backlog: 442
+2011,Caseload,Workload,Pengadilan Pajak,Cases Decided,16531,7724,cases,Clearance: 100.0%,Backlog: 8807
+2011,Caseload,Workload,Pengadilan Tingkat Banding,Cases Decided,17373,14300,cases,Clearance: 100.0%,Backlog: 3073
