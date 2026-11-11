@@ -1,0 +1,13 @@
+record_id,reporting_year,category,attribute,specification,value,source_reference,verification_status,notes
+MA-2015-DOC-01,2015,Document Identity,Document Title,Official Annual Report of the Supreme Court of Indonesia,Laporan Tahunan 2015 Mahkamah Agung RI,"Page 1-2 (Cover, Copyright)",VERIFIED,Official PDF (392 pages)
+MA-2015-DOC-02,2015,Document Identity,Publisher & ISBN,Pokja Laporan Tahunan Mahkamah Agung RI,ISBN: 978-979-8512-89-6,"Page 2, Cetakan I Feb 2016",VERIFIED,Medan Merdeka Utara 9-13
+MA-2015-DOC-03,2015,Document Identity,Reporting Period,Temporal Coverage,1 Jan 2015 - 31 Des 2015,"Page xviii, 15",VERIFIED,Pre-Pandemic Baseline
+MA-2015-DOC-04,2015,Document Identity,Institutional Leadership,Ketua Mahkamah Agung RI,"Prof. Dr. M. Hatta Ali, S.H., M.H.","Page x, xx (1 Maret 2016)",VERIFIED,Chief Justice Term
+MA-2015-DOC-05,2015,Document Identity,Data Classification,Public Open Data Infrastructure,PUBLIC / UNRESTRICTED,SK KMA 1-144/KMA/SK/I/2011,VERIFIED,Research-Ready Open Data
+MA-2015-SEC-01,2015,Chapter Scope,Bagian I: Case Management & Judicial Productivity,Manajemen Perkara,Hal. 1 - 80 (PDF 33-112),Hal. 1-80,VERIFIED,"DS01 & DS04: Caseload, Clearance Rate, Processing Time, Fines"
+MA-2015-SEC-02,2015,Chapter Scope,Bagian II: Bureaucratic Reform & Governance,Reformasi Birokrasi,Hal. 81 - 102 (PDF 113-134),Hal. 81-102,VERIFIED,"DS14: PMPRB, Integrity Zone, SOP, SAKIP"
+MA-2015-SEC-03,2015,Chapter Scope,Bagian III: Access to Justice & Public Services,Akses Terhadap Keadilan,Hal. 103 - 124 (PDF 135-156),Hal. 103-124,VERIFIED,"DS07: Posbakum, Prodeo, Circuit Courts, ATR, E-SKUM"
+MA-2015-SEC-04,2015,Chapter Scope,Bagian IV: Judicial Oversight & Discipline,Pengawasan,Hal. 125 - 148 (PDF 157-180),Hal. 125-148,VERIFIED,"DS13: Hukuman Disiplin, MKH, SPI, Audit Kinerja"
+MA-2015-SEC-05,2015,Chapter Scope,Bagian V: Human Resource Management,Manajemen Sumber Daya Manusia,Hal. 149 - 186 (PDF 181-218),Hal. 149-186,VERIFIED,"DS11: Judicial Workforce, Gender, Positions, Training"
+MA-2015-SEC-06,2015,Chapter Scope,Bagian VI: Financial and Asset Management,Manajemen Keuangan dan Aset,Hal. 187 - 262 (PDF 219-262),Hal. 187-262,VERIFIED,"DS18: Budget Execution, PNBP, Asset Recovery"
+MA-2015-SEC-07,2015,Chapter Scope,"Bagian VII-IX: Research, International Relations & Precedents","Litbang, Kerjasama & Landmark Decisions",Hal. 263 - 364 (PDF 263-364),Hal. 263-364,VERIFIED,"DS19 & DS20: Legal research, ACJM, Jurisprudence"
