@@ -1,0 +1,16 @@
+record_id,reporting_year,section_type,item_code,title_id,title_en,value,pages,scope,status
+MA-2014-DOC-01,2014,Document Identity,DOC_TITLE,Judul Dokumen,Document Title,Laporan Tahunan 2014 Mahkamah Agung Republik Indonesia,Cover,Official Annual Report,VERIFIED
+MA-2014-DOC-02,2014,Document Identity,DOC_PUB,Penerbit,Publisher,Mahkamah Agung Republik Indonesia,Imprint,Central Administration,VERIFIED
+MA-2014-DOC-03,2014,Document Identity,DOC_PERIOD,Periode Pelaporan,Reporting Period,1 Januari 2014 – 31 Desember 2014,Overview,FY 2014 Pre-Pandemic,VERIFIED
+MA-2014-DOC-04,2014,Document Identity,DOC_DATE,Tanggal Publikasi,Publication Date,17 Maret 2015 (Jakarta),Sekapur Sirih,Official Release Date,VERIFIED
+MA-2014-DOC-05,2014,Document Identity,DOC_PAGES,Jumlah Halaman,Total Document Pages,382 Pages,1-382,Verified Pagination,VERIFIED
+MA-2014-DOC-06,2014,Document Identity,DOC_FILE_ID,ID Berkas Sumber,Source File ID,1YuB5_SIijMNsOGHPPniJqPIyMNPPLLBa,Drive Ref,Digital Archive Master,VERIFIED
+MA-2014-DOC-07,2014,Document Identity,DOC_SCOPE,Cakupan Data,Data Scope,Supreme Court (Mahkamah Agung) & 4 Judicial Jurisdictions,TOC,"Umum, Agama, Militer, TUN, Pajak",VERIFIED
+MA-2014-CH-00,2014,Chapter Inventory,CH00,Profil & Unsur Pimpinan MA RI,Executive Profile & Judicial Leadership,i-xx (1-20),pp. 1-20,"Visi/Misi, Pimpinan MA, Hakim Agung, Eselon 1",VERIFIED
+MA-2014-CH-01,2014,Chapter Inventory,CH01,Bagian Pertama: Manajemen Perkara,Part 1: Case Management & Adjudication,1-106 (23-128),pp. 23-128,"Agenda Pembaruan, Sistem Kamar, Kasasi, PK, Sisa, Minutasi",VERIFIED
+MA-2014-CH-02,2014,Chapter Inventory,CH02,Bagian Kedua: Akses Terhadap Keadilan,Part 2: Access to Justice & Public Services,107-130 (129-152),pp. 129-152,"PERMA 1/2014, Pembebasan Biaya, Posbakum, Sidang Keliling",VERIFIED
+MA-2014-CH-03,2014,Chapter Inventory,CH03,Bagian Ketiga: Pengawasan Internal,Part 3: Internal Oversight & Integrity,131-160 (153-182),pp. 153-182,"Audit Kinerja/Integritas, Sidak, MKH, Disiplin Aparatur",VERIFIED
+MA-2014-CH-04,2014,Chapter Inventory,CH04,"Bagian Keempat: Manajemen SDM, Anggaran & Aset","Part 4: Workforce, Financials & Asset Management",161-242 (183-264),pp. 183-264,"Formasi CPNS, Profil Hakim/PNS, DIPA, BMN, WTP BPK",VERIFIED
+MA-2014-CH-05,2014,Chapter Inventory,CH05,Bagian Kelima: Balitbang Diklat Kumdil,Part 5: Judicial Research & Professional Training,243-264 (265-286),pp. 265-286,"Penelitian, ISO 9001:2008 Pusdiklat Menpim, Diklat Teknis",VERIFIED
+MA-2014-CH-06,2014,Chapter Inventory,CH06,Bagian Keenam: Forum Internasional,Part 6: International Judicial Engagement,265-286 (287-308),pp. 287-308,"Kerjasama Bilateral, Konferensi Lingkungan ASEAN",VERIFIED
+MA-2014-CH-07,2014,Chapter Inventory,CH07,Bagian Ketujuh: Landmark Decisions & SK,Part 7: Landmark Decisions & Decrees,287-382 (309-382),pp. 309-382,"Putusan Penting (Landmark), SK Pokja Laptah 2014",VERIFIED
