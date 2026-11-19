@@ -52,3 +52,6 @@ Generic probabilistic language models frequently suffer from generative hallucin
                +---------------------------------------------+
                |       SHA-256 PROVENANCE AUDIT LEAF         |
                +---------------------------------------------+
+
+## Licence
+Data: [CC BY 4.0](LICENSE). Code (scripts, notebooks, pipelines): [MIT](LICENSE-CODE). © 2026 Cecep Mustafa / Indonesian Judicial College (IJC) — ORCID 0000-0003-0037-497X.

@@ -1,6 +1,6 @@
 # National Court Census 2026 — Initial Release (v0.8)
 
-**Project Owner:** Indonesia Judicial Center (IJC) | **Lead:** Cecep Mustafa | **Date:** 2026-11-12
+**Project Owner:** Indonesian Judicial College (IJC) | **Lead:** Cecep Mustafa | **Date:** 2026-11-12
 
 ## 1. Executive Reconciliation Summary
 - **January 2026 Operational Satker Baseline:** **923** court units (416 PU + 446 PA + 38 TUN + 23 MIL), excluding 7 central administrative units (930 total satkers).
