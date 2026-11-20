@@ -3,7 +3,7 @@
 **Reliable Neuro-Symbolic AI & Structured Retrieval-Augmented Generation for Judicial Knowledge, Caseflow Velocity, and Evidence-Based Legal Policy Analysis**
 
 - **Principal Researcher:** Cecep Mustafa, Ph.D.
-- **Host Institution:** Sharjah Innovation Center for Legal and Judicial Studies
+- **Host Institution:** Indonesian Judicial College (IJC)
 - **Primary Workstation:** Dell Precision 7540 (Intel Xeon/Core, 64 GB RAM, NVIDIA Quadro T2000 4GB VRAM, Ubuntu Linux)
 - **Deployment Model:** Sovereign Air-Gapped Setup · Local Bare-Metal Compute · Docker Native
 
