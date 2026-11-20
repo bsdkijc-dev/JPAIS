@@ -1,4 +1,3 @@
-cat << 'EOF' > ~/JPAIS/README.md
 # JPAIS: Judicial Policy and Artificial Intelligence System
 
 **Reliable Neuro-Symbolic AI & Structured Retrieval-Augmented Generation for Judicial Knowledge, Caseflow Velocity, and Evidence-Based Legal Policy Analysis**
@@ -52,6 +51,16 @@ Generic probabilistic language models frequently suffer from generative hallucin
                +---------------------------------------------+
                |       SHA-256 PROVENANCE AUDIT LEAF         |
                +---------------------------------------------+
+
+## Author and citation
+
+**Author:** Cecep Mustafa, Indonesian Judicial College (IJC). ORCID: [0000-0003-0037-497X](https://orcid.org/0000-0003-0037-497X)
+
+**Cite as:** Mustafa, C. (2026). *JPAIS: Judicial Policy and Artificial Intelligence System* [Computer software]. GitHub. https://github.com/bsdkijc-dev/JPAIS
+
+Pilot corpus on Kaggle: https://www.kaggle.com/datasets/judicialcollege/jpais-judicial-corpus
+
+GitHub also shows a "Cite this repository" button, built from `CITATION.cff`.
 
 ## Licence
 Data: [CC BY 4.0](LICENSE). Code (scripts, notebooks, pipelines): [MIT](LICENSE-CODE). © 2026 Cecep Mustafa / Indonesian Judicial College (IJC) — ORCID 0000-0003-0037-497X.
