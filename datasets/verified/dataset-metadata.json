@@ -6,5 +6,6 @@
       "name": "CC-BY-4.0"
     }
   ],
-  "description": "Comprehensive empirical judicial dataset: Indonesian Commercial Court bankruptcy decisions, Supreme Court PK rulings, judicial deliberation ethics, electronic court rules, and PERMA harmonization ontologies."
+  "description": "Pilot corpus (about 10 kB) for the JPAIS legal retrieval system: a small legal ontology of Indonesian judicial decision-making (deliberation, confidentiality, e-court rules, draft PERMA review), 8 Commercial Court bankruptcy/PKPU test cases, a self-run 3-question benchmark and a reference note on UU 1/2024. Compiled by hand; see each file's description for limits.",
+  "subtitle": "Pilot legal ontology, 8 Indonesian bankruptcy cases and a JPAIS retrieval test"
 }

@@ -1,24 +1,21 @@
-UNDANG-UNDANG REPUBLIK INDONESIA
-NOMOR 1 TAHUN 2024
-TENTANG
-PERUBAHAN KEDUA ATAS UNDANG-UNDANG NOMOR 11 TAHUN 2008 TENTANG INFORMASI DAN TRANSAKSI ELEKTRONIK
+UNDANG-UNDANG REPUBLIK INDONESIA NOMOR 1 TAHUN 2024
+TENTANG PERUBAHAN KEDUA ATAS UNDANG-UNDANG NOMOR 11 TAHUN 2008 TENTANG INFORMASI DAN TRANSAKSI ELEKTRONIK
+Ditetapkan dan diundangkan di Jakarta, 2 Januari 2024.
 
-BAB I
-KETENTUAN UMUM
+CATATAN REFERENSI - BUKAN TEKS RESMI / REFERENCE NOTE - NOT THE OFFICIAL TEXT
 
-Pasal 1
-Dalam Undang-Undang ini yang dimaksud dengan:
-1. Informasi Elektronik adalah satu atau sekumpulan data elektronik, termasuk tetapi tidak terbatas pada tulisan, suara, gambar, peta, rancangan, foto, electronic data interchange (EDI), surat elektronik (electronic mail), telegram, teleks, telecopy atau sejenisnya.
-2. Transaksi Elektronik adalah perbuatan hukum yang dilakukan dengan menggunakan Komputer, jaringan Komputer, dan/atau media elektronik lainnya.
-3. Teknologi Informasi adalah suatu teknik untuk mengumpulkan, menyiapkan, menyimpan, memproses, mengumumkan, menganalisis, dan/atau menyebarkan informasi.
+Versi sebelumnya dari berkas ini memuat teks yang tidak sesuai dengan UU 1/2024 yang diundangkan dan telah diganti (20 November 2026). Isi di bawah adalah ringkasan (parafrasa), bukan kutipan. Untuk mengutip, gunakan salinan resmi:
+https://peraturan.bpk.go.id/Details/274494/uu-no-1-tahun-2024
 
-BAB VI
-PERBUATAN YANG DILARANG
+The earlier version of this file contained wording that did not match the enacted law and has been replaced. The summary below is a paraphrase, not a quotation. Quote the law only from the official copy above.
 
-Pasal 27
-(1) Setiap Orang dengan sengaja dan tanpa hak menyiarkan, mempertunjukkan, mendistribusikan, mentransmisikan, dan/atau membuat dapat diaksesnya Informasi Elektronik dan/atau Dokumen Elektronik yang memiliki muatan yang melanggar kesusilaan untuk diketahui umum.
-(2) Setiap Orang dengan sengaja dan tanpa hak mendistribusikan, mentransmisikan, dan/atau membuat dapat diaksesnya Informasi Elektronik dan/atau Dokumen Elektronik yang memiliki muatan perjudian.
+RINGKASAN (PARAFRASA)
+- Ketentuan Pasal 27 diubah. Ayat (1): larangan dengan sengaja dan tanpa hak menyiarkan, mempertunjukkan, mendistribusikan, mentransmisikan, dan/atau membuat dapat diaksesnya Informasi/Dokumen Elektronik bermuatan melanggar kesusilaan untuk diketahui umum. Ayat (2): larangan serupa untuk muatan perjudian.
+- Di antara Pasal 27 dan Pasal 28 disisipkan Pasal 27A (menyerang kehormatan atau nama baik orang lain) dan Pasal 27B.
+- Ketentuan Pasal 28 diubah. Ayat (1): pemberitahuan bohong atau informasi menyesatkan yang mengakibatkan kerugian materiel bagi konsumen dalam Transaksi Elektronik. Ayat (2): Informasi/Dokumen Elektronik yang sifatnya menghasut, mengajak, atau memengaruhi orang lain sehingga menimbulkan rasa kebencian atau permusuhan terhadap individu dan/atau kelompok masyarakat tertentu berdasarkan karakteristik yang disebut dalam pasal (antara lain ras, kebangsaan, etnis, warna kulit, agama, kepercayaan, jenis kelamin, disabilitas). Ayat (3): pemberitahuan bohong yang menimbulkan kerusuhan di masyarakat.
+- Ancaman pidana diatur dalam Pasal 45 dan Pasal 45A. Besaran denda telah disesuaikan oleh peraturan yang lebih baru; periksa teks yang berlaku.
 
-Pasal 28
-(1) Setiap Orang dengan sengaja menyebarkan Informasi Elektronik dan/atau Dokumen Elektronik yang diketahuinya memuat pemberitahuan bohong yang menimbulkan kerusuhan di masyarakat.
-(2) Setiap Orang dengan sengaja dan tanpa hak menyebarkan informasi yang ditujukan untuk menimbulkan rasa kebencian atau permusuhan individu dan/atau kelompok masyarakat tertentu berdasarkan atas suku, agama, ras, dan antargolongan (SARA) sebagaimana dimaksud dalam Pasal 27.
+PUTUSAN MAHKAMAH KONSTITUSI TERKAIT
+- Putusan Nomor 105/PUU-XXII/2024: menguji Pasal 27A, Pasal 45 ayat (4), Pasal 28 ayat (2) dan Pasal 45A ayat (2); dikabulkan sebagian (antara lain tafsir frasa "orang lain" dalam Pasal 27A dan Pasal 45 ayat (4)).
+- Putusan Nomor 115/PUU-XXII/2024: dikabulkan sebagian, antara lain mengenai kata "kerusuhan" dalam Pasal 28 ayat (3) dan Pasal 45A ayat (3).
+Baca amar putusan lengkap di https://www.mkri.id sebelum menggunakan pasal-pasal ini.
