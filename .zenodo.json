@@ -1,0 +1,21 @@
+{
+  "title": "JPAIS: Judicial Policy and Artificial Intelligence System",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Mustafa, Cecep",
+      "orcid": "0000-0003-0037-497X",
+      "affiliation": "Indonesian Judicial College (IJC)"
+    }
+  ],
+  "description": "Research system for traceable, source-grounded legal retrieval on Indonesian judicial knowledge, with a pilot legal ontology corpus. Author: Cecep Mustafa, Indonesian Judicial College (IJC), ORCID 0000-0003-0037-497X. Kaggle dataset DOI: 10.34740/kaggle/ds/13052358.",
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "Indonesia",
+    "judiciary",
+    "legal AI",
+    "knowledge graph",
+    "retrieval-augmented generation"
+  ],
+  "access_right": "open"
+}
