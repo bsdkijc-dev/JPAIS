@@ -1,0 +1,27 @@
+services:
+  jpais-qdrant-local:
+    image: qdrant/qdrant:v1.13.4
+    container_name: jpais-qdrant-local
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:6333:6333"
+      - "127.0.0.1:6334:6334"
+    volumes:
+      - ./data/qdrant:/qdrant/storage
+    mem_limit: 2048m
+
+  jpais-neo4j-local:
+    image: neo4j:5.26.4-community
+    container_name: jpais-neo4j-local
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:7474:7474"
+      - "127.0.0.1:7687:7687"
+    environment:
+      - NEO4J_AUTH=neo4j/jpais_local_dev_2026
+      - NEO4J_server_memory_heap_initial__size=512m
+      - NEO4J_server_memory_heap_max__size=1G
+      - NEO4J_server_memory_pagecache_size=1G
+    volumes:
+      - ./data/neo4j:/data
+    mem_limit: 3072m

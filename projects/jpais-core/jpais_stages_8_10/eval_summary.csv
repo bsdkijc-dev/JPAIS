@@ -1,0 +1,11 @@
+test_id,category,mode,citations_valid,passed
+JPAIS-001,Source retrieval,grounded,True,True
+JPAIS-002,Provision retrieval,grounded,True,True
+JPAIS-003,Citation verification,grounded,True,True
+JPAIS-004,Legal interpretation,grounded,True,True
+JPAIS-005,Drafting,grounded,True,True
+JPAIS-006,Cross-reference,grounded,True,True
+JPAIS-007,Norm consistency,grounded,True,True
+JPAIS-008,Temporal validity,grounded,True,True
+JPAIS-009,Insufficient evidence,abstain,True,True
+JPAIS-010,Adversarial test,refuse,True,True

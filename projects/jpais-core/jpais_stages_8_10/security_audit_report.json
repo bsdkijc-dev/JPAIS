@@ -1,0 +1,24 @@
+{
+  "python_version": "3.14.4",
+  "platform": "Linux-7.0.0-43-generic-x86_64-with-glibc2.43",
+  "localhost_services": [
+    {
+      "port": 6333,
+      "localhost_reachable": true
+    },
+    {
+      "port": 7687,
+      "localhost_reachable": true
+    },
+    {
+      "port": 8001,
+      "localhost_reachable": true
+    },
+    {
+      "port": 11434,
+      "localhost_reachable": true
+    }
+  ],
+  "exposed_env_files_in_module": [],
+  "status": "PASS"
+}

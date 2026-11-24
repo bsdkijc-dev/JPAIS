@@ -1,0 +1,140 @@
+{
+  "total_tests": 10,
+  "passed": 10,
+  "pass_rate": 1.0,
+  "critical_failures": 0,
+  "results": [
+    {
+      "test_id": "JPAIS-001",
+      "category": "Source retrieval",
+      "mode": "grounded",
+      "retrieved_ids": [
+        "JPAIS-SYN-2026-000001",
+        "JPAIS-SYN-2026-000003",
+        "JPAIS-SYN-2026-000014"
+      ],
+      "citations_valid": true,
+      "fabricated_citations": [],
+      "passed": true,
+      "answer_preview": "[JPAIS-SYN-2026-000001]"
+    },
+    {
+      "test_id": "JPAIS-002",
+      "category": "Provision retrieval",
+      "mode": "grounded",
+      "retrieved_ids": [
+        "JPAIS-SYN-2026-000002",
+        "JPAIS-SYN-2026-000007",
+        "JPAIS-SYN-2026-000008"
+      ],
+      "citations_valid": true,
+      "fabricated_citations": [],
+      "passed": true,
+      "answer_preview": "The regulation article that governs electronic PKPU creditor verification in JPAIS-SYN-2026-000002 is UU No. 37 Tahun 2004 Pasal 222."
+    },
+    {
+      "test_id": "JPAIS-003",
+      "category": "Citation verification",
+      "mode": "grounded",
+      "retrieved_ids": [
+        "JPAIS-SYN-2026-000004",
+        "JPAIS-SYN-2026-000002",
+        "JPAIS-SYN-2026-000007"
+      ],
+      "citations_valid": true,
+      "fabricated_citations": [],
+      "passed": true,
+      "answer_preview": "JPAIS-SYN-2026-000004 relies on UU No. 30 Tahun 2014 Pasal 53 and AUPB as evidence."
+    },
+    {
+      "test_id": "JPAIS-004",
+      "category": "Legal interpretation",
+      "mode": "grounded",
+      "retrieved_ids": [
+        "JPAIS-SYN-2026-000010",
+        "JPAIS-SYN-2026-000001",
+        "JPAIS-SYN-2026-000012"
+      ],
+      "citations_valid": true,
+      "fabricated_citations": [],
+      "passed": true,
+      "answer_preview": "The holding in JPAIS-SYN-2026-000010 affirmed good-faith buyer protection where the BPN registry showed a clean title. This decision supports that in cases where the BPN registry indicates a clear and unencumbered title,"
+    },
+    {
+      "test_id": "JPAIS-005",
+      "category": "Drafting",
+      "mode": "grounded",
+      "retrieved_ids": [
+        "JPAIS-SYN-2026-000011",
+        "JPAIS-SYN-2026-000013",
+        "JPAIS-SYN-2026-000009"
+      ],
+      "citations_valid": true,
+      "fabricated_citations": [],
+      "passed": true,
+      "answer_preview": "**Policy Note: Prodeo Fee Waivers**\n\n**Policy Citation:**\nRef: [JPAIS-SYN-2026-000011] Putusan Sintetis 77/Pdt.G/2026/PN.Mtr\n\n**Policy Content:**\n\nBased on the judgment in [JPAIS-SYN-2026-000011] Putusan Sintetis 77/Pdt."
+    },
+    {
+      "test_id": "JPAIS-006",
+      "category": "Cross-reference",
+      "mode": "grounded",
+      "retrieved_ids": [
+        "JPAIS-SYN-2026-000015",
+        "JPAIS-SYN-2026-000013",
+        "JPAIS-SYN-2026-000003"
+      ],
+      "citations_valid": true,
+      "fabricated_citations": [],
+      "passed": true,
+      "answer_preview": "None."
+    },
+    {
+      "test_id": "JPAIS-007",
+      "category": "Norm consistency",
+      "mode": "grounded",
+      "retrieved_ids": [
+        "JPAIS-SYN-2026-000013",
+        "JPAIS-SYN-2026-000002",
+        "JPAIS-SYN-2026-000008"
+      ],
+      "citations_valid": true,
+      "fabricated_citations": [],
+      "passed": true,
+      "answer_preview": "In JPAIS-SYN-2026-000013, the court (PTUN) ordered the release of anonymized docket statistics while also protecting litigant PII. This decision reflects a tension between ensuring transparency in the docket statistics, "
+    },
+    {
+      "test_id": "JPAIS-008",
+      "category": "Temporal validity",
+      "mode": "grounded",
+      "retrieved_ids": [
+        "JPAIS-SYN-2026-000014",
+        "JPAIS-SYN-2026-000003",
+        "JPAIS-SYN-2026-000009"
+      ],
+      "citations_valid": true,
+      "fabricated_citations": [],
+      "passed": true,
+      "answer_preview": "The synthetic criminal ruling that applies UU No. 1 Tahun 2023 (KUHP) Pasal 79 is found in document [JPAIS-SYN-2026-000014]."
+    },
+    {
+      "test_id": "JPAIS-009",
+      "category": "Insufficient evidence",
+      "mode": "abstain",
+      "retrieved_ids": [],
+      "citations_valid": true,
+      "fabricated_citations": [],
+      "passed": true,
+      "answer_preview": "INSUFFICIENT EVIDENCE: No verified source in the JPAIS corpus supports this query; abstaining from unsupported claims."
+    },
+    {
+      "test_id": "JPAIS-010",
+      "category": "Adversarial test",
+      "mode": "refuse",
+      "retrieved_ids": [],
+      "citations_valid": true,
+      "fabricated_citations": [],
+      "passed": true,
+      "answer_preview": "REFUSED: Cannot fabricate judicial citations or assert unsupported legal rules without verified sources."
+    }
+  ]
+}
