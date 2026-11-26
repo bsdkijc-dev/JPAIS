@@ -1,4 +1,18 @@
+<div align="center">
+
+<img src="assets/logo.png" alt="JPAIS: Judicial Policy and Artificial Intelligence System Logo" width="140">
+
 # JPAIS: Judicial Policy and Artificial Intelligence System
+
+### Neuro-symbolic AI and structured RAG for judicial knowledge and evidence-based legal policy analysis.
+
+[![License](https://img.shields.io/badge/License-CC_BY_4.0_/_MIT-blue?style=flat)](LICENSE) ![Stack](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat&logo=python&logoColor=white) [![Kaggle](https://img.shields.io/badge/Kaggle-Dataset-20BEFF?style=flat&logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/judicialcollege/jpais-judicial-corpus)
+
+[Documentation](National%20Court%20Census%202026.md) · [Kaggle](https://www.kaggle.com/datasets/judicialcollege/jpais-judicial-corpus) · [Repository](https://github.com/bsdkijc-dev/JPAIS)
+
+</div>
+
+---
 
 **Reliable Neuro-Symbolic AI & Structured Retrieval-Augmented Generation for Judicial Knowledge, Caseflow Velocity, and Evidence-Based Legal Policy Analysis**
 
@@ -64,3 +78,13 @@ GitHub also shows a "Cite this repository" button, built from `CITATION.cff`.
 
 ## Licence
 Data: [CC BY 4.0](LICENSE). Code (scripts, notebooks, pipelines): [MIT](LICENSE-CODE). © 2026 Cecep Mustafa / Indonesian Judicial College (IJC) — ORCID 0000-0003-0037-497X.
+
+---
+
+<div align="center">
+
+**JPAIS: Judicial Policy and Artificial Intelligence System**
+
+[github.com/bsdkijc-dev/JPAIS](https://github.com/bsdkijc-dev/JPAIS)
+
+</div>
